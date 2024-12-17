@@ -45,6 +45,5 @@ string google_crash_reporting_api_key
 string google_storage_bucket
 string project_id
 style Theme.LockCompose
-xml accessibility_service_config
 xml backup_rules
 xml data_extraction_rules

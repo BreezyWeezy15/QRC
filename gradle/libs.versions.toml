@@ -22,6 +22,7 @@ gms="4.2.2"
 googleGmsGoogleServices = "4.4.2"
 firebaseAuth = "23.1.0"
 sentryAndroid = "7.12.0"
+firebaseCrashlyticsBuildtools = "3.0.2"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -50,6 +51,7 @@ androidx-runtime-livedata = { group = "androidx.compose.runtime", name = "runtim
 firebase-database-ktx = { group = "com.google.firebase", name = "firebase-database-ktx", version.ref = "firebaseDatabaseKtx" }
 firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
 sentry-android = { module = "io.sentry:sentry-android", version.ref = "sentryAndroid" }
+firebase-crashlytics-buildtools = { group = "com.google.firebase", name = "firebase-crashlytics-buildtools", version.ref = "firebaseCrashlyticsBuildtools" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

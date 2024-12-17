@@ -4,7 +4,7 @@
             "outputFile": "com.app.lockcomposeChild.test.app-mergeDebugAndroidTestResources-32:/values-ko/values-ko.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\BreezyWeezy\\.gradle\\caches\\transforms-4\\648968bec82069ee8d25ca07f1c14929\\transformed\\ui-release\\res\\values-ko\\values-ko.xml",
+                    "source": "C:\\Users\\BreezyWeezy\\.gradle\\caches\\transforms-4\\deb59efb7d5a10aad8e9b82f4ab5ff47\\transformed\\ui-release\\res\\values-ko\\values-ko.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\BreezyWeezy\\.gradle\\caches\\transforms-4\\6237419d8d26633ce7956f9d5244710b\\transformed\\core-1.13.1\\res\\values-ko\\values-ko.xml",
+                    "source": "C:\\Users\\BreezyWeezy\\.gradle\\caches\\transforms-4\\ab8f5cda4b1f38fb4c62fb438fa3f984\\transformed\\core-1.13.1\\res\\values-ko\\values-ko.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

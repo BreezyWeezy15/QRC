@@ -36,10 +36,6 @@
         "source": "com.app.lockcomposeChild.app-main-68:/drawable/baseline_lock_24.xml"
     },
     {
-        "merged": "com.app.lockcomposeChild.app-debug-66:/xml_accessibility_service_config.xml.flat",
-        "source": "com.app.lockcomposeChild.app-main-68:/xml/accessibility_service_config.xml"
-    },
-    {
         "merged": "com.app.lockcomposeChild.app-debug-66:/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "com.app.lockcomposeChild.app-main-68:/mipmap-mdpi/ic_launcher_round.webp"
     },

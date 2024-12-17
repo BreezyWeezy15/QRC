@@ -1,96 +1,96 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:2:1-72:12
-INJECTED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:2:1-72:12
-INJECTED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:2:1-72:12
-INJECTED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:2:1-72:12
-MERGED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\084e9314261cd89fb27e1ea20970b665\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:2:1-18:12
-MERGED from [io.sentry:sentry-android:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\1174dc8ee6624d9160ae6569c17e303a\transformed\sentry-android-7.12.0\AndroidManifest.xml:2:1-10:12
-MERGED from [io.sentry:sentry-android-replay:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\86a582391b9353ed6a3b4df1476b2100\transformed\sentry-android-replay-7.12.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\f2e916bf8a49337779dce6502b45bdbe\transformed\navigation-common-2.7.7\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\c2ebd64055d7270aca2a0eb96d58d899\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\4594fc360cd482a8640ecd82ad6c0ca3\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\2c7ffdc069ecf815d82f87848acd3307\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\dc0a9ed927cd35d4ee41883c66a2c136\transformed\navigation-compose-2.7.7\AndroidManifest.xml:2:1-7:12
-MERGED from [io.coil-kt:coil-compose:2.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\44d9862e672e94291c1391de936a8690\transformed\coil-compose-2.7.0\AndroidManifest.xml:2:1-7:12
-MERGED from [io.coil-kt:coil-compose-base:2.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\63d062c2bf430a9c5e4342e2289882cd\transformed\coil-compose-base-2.7.0\AndroidManifest.xml:2:1-7:12
-MERGED from [io.coil-kt:coil:2.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ea649fb19502f3ecba38803bdf71a095\transformed\coil-2.7.0\AndroidManifest.xml:2:1-7:12
-MERGED from [io.coil-kt:coil-base:2.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\c12fd0bd4498e791428102ad8653f19c\transformed\coil-base-2.7.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e50aaf4b7f584cf7ed448140db5f9249\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7893548ac091c8c986b8d605000d16dc\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\44005f115b19b4a7fdaa1a93840102db\transformed\firebase-database-21.0.0\AndroidManifest.xml:15:1-38:12
-MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\a7dfd00afe7c6e553f9e6d0818922183\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:2:1-18:12
-MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0ff67cee9d0ec9beb7e615923b3eb0c0\transformed\firebase-common-21.0.0\AndroidManifest.xml:15:1-41:12
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\30bc9c7814ef8f37a94c6a8b52614575\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:15:1-23:12
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\55037b4eb9cb90698e03670074599c41\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\04b76f7d55bc1d8ef08f1f8d02333c50\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\72db4073f79c21bfd9127002406e7a56\transformed\play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
-MERGED from [io.sentry:sentry-android-ndk:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6d506c641233be2b4dae6ae5c7a2bff9\transformed\sentry-android-ndk-7.12.0\AndroidManifest.xml:2:1-7:12
-MERGED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\27db0330bf5af4fa0586c7e09f9dde24\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:2:1-23:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\f735dc46f63d841573c07537cb9665e0\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material3:material3:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e23fa4b2fa60d69e89ad58241371384c\transformed\material3-1.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6fc1bd67ffcc1ee782eed309082980c9\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\81cc5c7b7c8c0a83bafb85e4d59bd8bb\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.animation:animation-core-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\84e2609d18f8292db99d4772316af749\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.animation:animation-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\00e72890e9e576966e3f603b06e6aa5b\transformed\animation-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ee2738f1299fae9f50943d5ddd18e36e\transformed\ui-tooling-data-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\fc9af82553d9062492eca4892a1040d7\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6160bf014de55a4b768df3868ad785f0\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\82adbbad38700dd626357296af85dae3\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\bfd29079b20e4ee6371a0cdab544abdf\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-test-manifest:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\bdb61590c511efe59d6b7a5aef370618\transformed\ui-test-manifest-1.6.8\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.compose.ui:ui-util-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\327ddb5f321e8ca46223440893dce3d2\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-text-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\cc78e2cb2bdce6e507e057b55aba8fe2\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\648968bec82069ee8d25ca07f1c14929\transformed\ui-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7b0e28350df9c7c6f9bedbd3f529f405\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.compose.material:material-android:1.5.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\db74cec56903172bbbbeca0ac8f27e4e\transformed\material-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-icons-core-android:1.5.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\f56c35b2f7f2f7aa68ef1aecf12a90bf\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-ripple-android:1.5.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\1cf600de2bded786a7bcd6b470196980\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\1896e5db87d709975406a16f3569d737\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\69005430d54b1b1b5edbb65c1c3cee3d\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\2a5dad5588590afb6d4bf2ede2551cc6\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\265c7ec7da482742ab652b0af5969b44\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\1e0974e31fb924a65ab3148f9409ae86\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\a40c86ec66e4246fafefc713d31fae6f\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0b2f9b87d9380a4dd34cb417bd78ca75\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e5d7fcab64b02a01b9fc61984f0da776\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\d7db2d5bc864f45e6def534875492681\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0cdbe3eb684d45d59857a0c4d98e50bb\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\9ef2a70f3dc8936c47a7ba9d46595cc9\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6237419d8d26633ce7956f9d5244710b\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\5f1180548a36154150bc8d29ad9a3d0b\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\5af9d27e2b7f8a562ff8126f216b235d\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0420dfd97a73f3ee339226ed0a167ef9\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\386cfaa0756853478aefe16391bd817b\transformed\lifecycle-livedata-core-ktx-2.8.6\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6c44edfa8f10944832e124208f6d0648\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\dd901a9eabd7d5eeb5de9c4e657e85c1\transformed\lifecycle-livedata-core-2.8.6\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\cd629f36043b2a299640a2be5a109dcf\transformed\lifecycle-viewmodel-2.8.6\AndroidManifest.xml:2:1-5:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\26fd3f54f15c7b5a2a352ef96ed26164\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\9b41b8d3839b031e77c28208c7dd062f\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\33d2b13cbd711e0b2d48d79b575e643a\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7b84c46ce2d3b535cb5dde8fa646fd02\transformed\lifecycle-viewmodel-savedstate-2.8.6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\9c6eb4078a3c89e5739a8f276d16a000\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ae2d9c4b59126f098d488d9c2a55e467\transformed\play-services-basement-18.3.0\AndroidManifest.xml:16:1-26:12
-MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0d777faaf354a2b5e66067d6a3a3c00c\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.9.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e164c07512612771937a4ad3c789defd\transformed\activity-1.9.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity-ktx:1.9.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\359bbc8d0105cc8d0b19e771d164f3d0\transformed\activity-ktx-1.9.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.activity:activity-compose:1.9.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e36a502adc35e7122ffbbd01a3847188\transformed\activity-compose-1.9.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.3] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\d1f4eafa3436712eef5795e63f205996\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.runtime:runtime-android:1.7.3] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\dd0c0af2d1278369a4b31157df1c4ca6\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.runtime:runtime-livedata:1.7.3] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\449a4729c2b0e736067aa78bd9a68b15\transformed\runtime-livedata-1.7.3\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\c3aa938530d28d8aa4dd8c64b00f3ff4\transformed\lifecycle-livedata-2.8.6\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\b71246184bbefcc9932911ca6f821927\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\05d6ce8355f4820f2db9047041bec02a\transformed\lifecycle-viewmodel-ktx-2.8.6\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\8023e1f785014d3264c838e47b570856\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e61b2afa2c7ded1c3fae514e9e297e92\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6eced2ca13ac17ea68aa6725940e099b\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
-MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\357a1cccfcba32b00f43e0b0f81f992f\transformed\firebase-components-18.0.0\AndroidManifest.xml:15:1-20:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\f42a2475601f2ff8516e4dd5d2231a71\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\2ba32093988e17ed673e9ff83631b406\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\736947373a20d3949578808c10d21d2f\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\1f28e950f000341a69e51132b85ef15f\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\898a5799947c6a3cb96a57abcf52e20c\transformed\exifinterface-1.3.7\AndroidManifest.xml:17:1-24:12
+ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:2:1-73:12
+MERGED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e6196320271241ad5a57d7c491faf4f2\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:2:1-18:12
+MERGED from [io.sentry:sentry-android:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\279cddef83c24f9ea588a7fc605fe881\transformed\sentry-android-7.12.0\AndroidManifest.xml:2:1-10:12
+MERGED from [io.sentry:sentry-android-replay:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\96b15362febaf4ee8036028988d27667\transformed\sentry-android-replay-7.12.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\838707bb35c06cb27ba6dd718c448189\transformed\navigation-common-2.7.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\77e0d08acf76dda4fc4822382f674959\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\fbe0aca45929047358d6b811f26f56b3\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7acc7477eeaa6ceb2f7c6ae705e05a47\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\2f0fc33c0da0c8e7f29859515679e71d\transformed\navigation-compose-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose:2.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6fd45e7a61d6cb8e25e0bdd5453c924c\transformed\coil-compose-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\06799e8603ecfd76baaa6f89589fdd2b\transformed\coil-compose-base-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil:2.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0b14a2ef7a88b7c3840f09d268cd34ce\transformed\coil-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\4d83b127784b0c28612451a5d1ad64b8\transformed\coil-base-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\fd18d0c04f77e282d7023b71e08c7c79\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\31427ef61b2939b23ae5f98ee9681747\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\88bab9c738aec5b6a0505eead1bc2a1e\transformed\firebase-database-21.0.0\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\3c4e121990de021f8f819faad6f17cb1\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7e43c0fc29067313815ec6d16749ce21\transformed\firebase-common-21.0.0\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\dc3c865ac436d86aa7c8e5cfa3962d14\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\05713962d6eabf56e16ac9cc9f3841f2\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\bdac8d63c1002464cb0daaa3e3b9c89e\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ec0556f886387fbff2a7d2571df502d9\transformed\play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [io.sentry:sentry-android-ndk:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\4776d05d3f763393812252aa4a8f2c64\transformed\sentry-android-ndk-7.12.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\da7f3a4ab8726c47d09b3ffe50759e2a\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:2:1-23:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\70f1919aba06e275ed1639894813c2cd\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\703c9ab5604f1e67d268953797027aae\transformed\material3-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\cbc929f89799d3b27cd5920abbe54ab3\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7712c511af0f2f56befdca379035bbfe\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\5cfc8f4bfb2aca802d12e90f2499761d\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\5e435f52a7ebe33059c8a9378fb38a10\transformed\animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\bfbcebd143f91dfaebe2d101bdb29923\transformed\ui-tooling-data-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\646d81e86adb0677040f130926cd1865\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\509785d15f13ded46276fa3e16650371\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\98c2baa68c6d7f4f14f02ceeeeae2ed1\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\d991bfc7798d2ce960edf6911e5a6a19\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\f0df324c78b116fb132b84e50358e23a\transformed\ui-test-manifest-1.6.8\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\105d57b3825c3a6434ffb112d8fc3673\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\4606ffb8c67e14aafa9e9eb9fde04540\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\deb59efb7d5a10aad8e9b82f4ab5ff47\transformed\ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e0adfa9e7c9d770110abee8fa00b26b0\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.material:material-android:1.5.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\bffd8af88476a72a1081557f4bb94786\transformed\material-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\df725da0408f958d798c99187568d91f\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.5.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\1348150e01a911c305c0738d873ce38c\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\dc8b85b38234d7fccd30a8f1099c324a\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6aac3cf847601eaba70386004fcf294a\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7e7b4ad1806b7e17fa50e565218dfaf3\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\88d20f5ee17cad5a672a5fc7eaa9caef\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\faced0cabe0cf9474a583892e57fe489\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\033c44e44747196462cfa3ea01ce2524\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6a6be731bb5d6f16e26b56c1c1fc4e86\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\331f900312cb398c633e28a20793af66\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\5fd0650becf65482881c587a6e4022dd\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7a9a9628b8910298d4e9f6ab8a3ee97c\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\51fbe4cb365e7619468085493fd41dd9\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ab8f5cda4b1f38fb4c62fb438fa3f984\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\db080384db68ad73afb6a2b6009cce4b\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6eb8daf5a26133e6afc6396dd8e1c22e\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\c09962d08d49eb0daf0617a06cb58dea\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\a441c7c6c1a87d88d486219121d4139f\transformed\lifecycle-livedata-core-ktx-2.8.6\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\44760ace625d9d78d7834efaba9dc9ea\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e3c6a24c4152477fe9bc7950e802d133\transformed\lifecycle-livedata-core-2.8.6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\c772d227441907ec219fcf6f9c57008e\transformed\lifecycle-viewmodel-2.8.6\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\158844c21241063cf2676293fb51e61f\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\c7f17d90a3f808ec08508ccb44a2bca1\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\fcd6f7b5a8ff2cea1f4ee0a1ab322c65\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\cda355117ec7ce0d314a7bf9c7fab527\transformed\lifecycle-viewmodel-savedstate-2.8.6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7f26a8699c467646762ff134444a6e88\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\97ce983eeda816d198bbcb4d199aa702\transformed\play-services-basement-18.3.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\4d4da32025b7d2971d109a9688ceca5e\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.9.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\48651a46c67a03cc6f4a1dad370215a4\transformed\activity-1.9.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.9.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\9b6aaa390e6121871e9559c286505861\transformed\activity-ktx-1.9.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.9.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\493f4eb16465ee334bcdd55b49858943\transformed\activity-compose-1.9.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.3] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\f93c457ebc0adccaa3f1d0121e25ee63\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.3] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\119d55248b07f0c42942269cba3f6939\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-livedata:1.7.3] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\67265ecc46a832f18ff3fda8e9584e2b\transformed\runtime-livedata-1.7.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\a752f4590ea635e298294949efb2b165\transformed\lifecycle-livedata-2.8.6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\d160373f7245fc669f3bd579bb79f354\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\eb13f57e2e780c535ce1d5cb3877fc0b\transformed\lifecycle-viewmodel-ktx-2.8.6\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\19ea0d50a89f971b90fbf6df263342b6\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\d3eef7f532deebe3ca4030270704c36f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ae693c25d6d326c64bb18f6eb51f3815\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\b726f6bbd3085555d82953aa4a111488\transformed\firebase-components-18.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\4a9a38bbbe5a80756765116f719355ea\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\83d1d6f231bdd1a80b06a0abec0afc03\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\d0fbdd22e1fb307c737013d04c04434c\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\37d0f7dd01cbfd1c3ff769eac2581b6f\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\a08420f512846e1d18f8c99158bd8b29\transformed\exifinterface-1.3.7\AndroidManifest.xml:17:1-24:12
 	package
 		INJECTED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -102,519 +102,519 @@ MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\BreezyWeezy\.g
 	xmlns:android
 		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:5:5-66
-MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\44005f115b19b4a7fdaa1a93840102db\transformed\firebase-database-21.0.0\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\44005f115b19b4a7fdaa1a93840102db\transformed\firebase-database-21.0.0\AndroidManifest.xml:23:5-67
-MERGED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\27db0330bf5af4fa0586c7e09f9dde24\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:7:5-67
-MERGED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\27db0330bf5af4fa0586c7e09f9dde24\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:7:5-67
+ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:6:5-66
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\88bab9c738aec5b6a0505eead1bc2a1e\transformed\firebase-database-21.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\88bab9c738aec5b6a0505eead1bc2a1e\transformed\firebase-database-21.0.0\AndroidManifest.xml:23:5-67
+MERGED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\da7f3a4ab8726c47d09b3ffe50759e2a\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:7:5-67
+MERGED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\da7f3a4ab8726c47d09b3ffe50759e2a\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.QUERY_ALL_PACKAGES
-ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:6:5-7:53
+ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:7:5-8:53
 	tools:ignore
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:7:9-50
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:8:9-50
 	android:name
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:6:22-74
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:7:22-74
 application
-ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:10:5-70:19
-INJECTED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:10:5-70:19
-MERGED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\084e9314261cd89fb27e1ea20970b665\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
-MERGED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\084e9314261cd89fb27e1ea20970b665\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
-MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\44005f115b19b4a7fdaa1a93840102db\transformed\firebase-database-21.0.0\AndroidManifest.xml:25:5-36:19
-MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\44005f115b19b4a7fdaa1a93840102db\transformed\firebase-database-21.0.0\AndroidManifest.xml:25:5-36:19
-MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\a7dfd00afe7c6e553f9e6d0818922183\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
-MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\a7dfd00afe7c6e553f9e6d0818922183\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
-MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0ff67cee9d0ec9beb7e615923b3eb0c0\transformed\firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
-MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0ff67cee9d0ec9beb7e615923b3eb0c0\transformed\firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\30bc9c7814ef8f37a94c6a8b52614575\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\30bc9c7814ef8f37a94c6a8b52614575\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\55037b4eb9cb90698e03670074599c41\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\55037b4eb9cb90698e03670074599c41\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\72db4073f79c21bfd9127002406e7a56\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\72db4073f79c21bfd9127002406e7a56\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
-MERGED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\27db0330bf5af4fa0586c7e09f9dde24\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:9:5-21:19
-MERGED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\27db0330bf5af4fa0586c7e09f9dde24\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:9:5-21:19
-MERGED from [androidx.compose.ui:ui-test-manifest:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\bdb61590c511efe59d6b7a5aef370618\transformed\ui-test-manifest-1.6.8\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-test-manifest:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\bdb61590c511efe59d6b7a5aef370618\transformed\ui-test-manifest-1.6.8\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7b0e28350df9c7c6f9bedbd3f529f405\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7b0e28350df9c7c6f9bedbd3f529f405\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\69005430d54b1b1b5edbb65c1c3cee3d\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\69005430d54b1b1b5edbb65c1c3cee3d\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6237419d8d26633ce7956f9d5244710b\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6237419d8d26633ce7956f9d5244710b\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\33d2b13cbd711e0b2d48d79b575e643a\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\33d2b13cbd711e0b2d48d79b575e643a\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:23:5-33:19
-MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\9c6eb4078a3c89e5739a8f276d16a000\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\9c6eb4078a3c89e5739a8f276d16a000\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ae2d9c4b59126f098d488d9c2a55e467\transformed\play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ae2d9c4b59126f098d488d9c2a55e467\transformed\play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e61b2afa2c7ded1c3fae514e9e297e92\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e61b2afa2c7ded1c3fae514e9e297e92\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\2ba32093988e17ed673e9ff83631b406\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\2ba32093988e17ed673e9ff83631b406\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:11:5-71:19
+INJECTED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:11:5-71:19
+MERGED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e6196320271241ad5a57d7c491faf4f2\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e6196320271241ad5a57d7c491faf4f2\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\88bab9c738aec5b6a0505eead1bc2a1e\transformed\firebase-database-21.0.0\AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\88bab9c738aec5b6a0505eead1bc2a1e\transformed\firebase-database-21.0.0\AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\3c4e121990de021f8f819faad6f17cb1\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\3c4e121990de021f8f819faad6f17cb1\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7e43c0fc29067313815ec6d16749ce21\transformed\firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7e43c0fc29067313815ec6d16749ce21\transformed\firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\dc3c865ac436d86aa7c8e5cfa3962d14\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\dc3c865ac436d86aa7c8e5cfa3962d14\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\05713962d6eabf56e16ac9cc9f3841f2\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\05713962d6eabf56e16ac9cc9f3841f2\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ec0556f886387fbff2a7d2571df502d9\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ec0556f886387fbff2a7d2571df502d9\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\da7f3a4ab8726c47d09b3ffe50759e2a\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:9:5-21:19
+MERGED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\da7f3a4ab8726c47d09b3ffe50759e2a\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:9:5-21:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\f0df324c78b116fb132b84e50358e23a\transformed\ui-test-manifest-1.6.8\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\f0df324c78b116fb132b84e50358e23a\transformed\ui-test-manifest-1.6.8\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e0adfa9e7c9d770110abee8fa00b26b0\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e0adfa9e7c9d770110abee8fa00b26b0\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6aac3cf847601eaba70386004fcf294a\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6aac3cf847601eaba70386004fcf294a\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ab8f5cda4b1f38fb4c62fb438fa3f984\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ab8f5cda4b1f38fb4c62fb438fa3f984\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\fcd6f7b5a8ff2cea1f4ee0a1ab322c65\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\fcd6f7b5a8ff2cea1f4ee0a1ab322c65\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7f26a8699c467646762ff134444a6e88\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7f26a8699c467646762ff134444a6e88\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\97ce983eeda816d198bbcb4d199aa702\transformed\play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\97ce983eeda816d198bbcb4d199aa702\transformed\play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\d3eef7f532deebe3ca4030270704c36f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\d3eef7f532deebe3ca4030270704c36f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\83d1d6f231bdd1a80b06a0abec0afc03\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\83d1d6f231bdd1a80b06a0abec0afc03\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
 		INJECTED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6237419d8d26633ce7956f9d5244710b\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ab8f5cda4b1f38fb4c62fb438fa3f984\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:18:9-35
 	android:label
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:16:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:14:9-54
 	android:roundIcon
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:16:9-54
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:17:9-54
 	tools:targetApi
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:19:9-29
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:20:9-29
 	android:icon
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:15:9-43
 	android:allowBackup
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:18:9-49
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:19:9-49
 	android:dataExtractionRules
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:12:9-65
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:13:9-65
 activity#com.app.lockcomposeChild.MainActivity
-ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:20:9-30:20
+ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:21:9-31:20
 	android:label
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:23:13-45
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:24:13-45
 	android:exported
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:22:13-36
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:23:13-36
 	android:theme
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:24:13-53
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:25:13-53
 	android:name
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:21:13-65
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:22:13-65
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:25:13-29:29
+ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:26:17-69
+ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:26:25-66
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:28:17-77
+ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:28:27-74
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:29:27-74
 meta-data#io.sentry.dsn
-ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:33:9-36:15
+ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:34:9-37:15
 	android:value
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:35:13-124
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:36:13-124
 	android:name
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:34:13-41
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:35:13-41
 meta-data#io.sentry.traces.user-interaction.enable
-ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:39:9-42:15
+ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:40:9-43:15
 	android:value
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:41:13-33
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:42:13-33
 	android:name
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:40:13-68
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:41:13-68
 meta-data#io.sentry.attach-screenshot
-ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:44:9-47:15
+ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:45:9-48:15
 	android:value
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:46:13-33
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:47:13-33
 	android:name
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:45:13-55
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:46:13-55
 meta-data#io.sentry.attach-view-hierarchy
-ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:49:9-52:15
+ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:50:9-53:15
 	android:value
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:51:13-33
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:52:13-33
 	android:name
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:50:13-59
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:51:13-59
 meta-data#io.sentry.traces.sample-rate
-ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:55:9-58:15
+ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:56:9-59:15
 	android:value
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:57:13-32
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:58:13-32
 	android:name
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:56:13-56
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:57:13-56
 meta-data#io.sentry.traces.profiling.sample-rate
-ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:60:9-63:15
+ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:61:9-64:15
 	android:value
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:62:13-32
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:63:13-32
 	android:name
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:61:13-66
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:62:13-66
 meta-data#io.sentry.traces.profiling.enable-app-start
-ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:65:9-68:15
+ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:66:9-69:15
 	android:value
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:67:13-33
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:68:13-33
 	android:name
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:66:13-71
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:67:13-71
 uses-sdk
 INJECTED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml
-MERGED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\084e9314261cd89fb27e1ea20970b665\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\084e9314261cd89fb27e1ea20970b665\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:5:5-44
-MERGED from [io.sentry:sentry-android:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\1174dc8ee6624d9160ae6569c17e303a\transformed\sentry-android-7.12.0\AndroidManifest.xml:6:5-8:57
-MERGED from [io.sentry:sentry-android:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\1174dc8ee6624d9160ae6569c17e303a\transformed\sentry-android-7.12.0\AndroidManifest.xml:6:5-8:57
-MERGED from [io.sentry:sentry-android-replay:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\86a582391b9353ed6a3b4df1476b2100\transformed\sentry-android-replay-7.12.0\AndroidManifest.xml:5:5-44
-MERGED from [io.sentry:sentry-android-replay:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\86a582391b9353ed6a3b4df1476b2100\transformed\sentry-android-replay-7.12.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\f2e916bf8a49337779dce6502b45bdbe\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\f2e916bf8a49337779dce6502b45bdbe\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\c2ebd64055d7270aca2a0eb96d58d899\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\c2ebd64055d7270aca2a0eb96d58d899\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\4594fc360cd482a8640ecd82ad6c0ca3\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\4594fc360cd482a8640ecd82ad6c0ca3\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\2c7ffdc069ecf815d82f87848acd3307\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\2c7ffdc069ecf815d82f87848acd3307\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\dc0a9ed927cd35d4ee41883c66a2c136\transformed\navigation-compose-2.7.7\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\dc0a9ed927cd35d4ee41883c66a2c136\transformed\navigation-compose-2.7.7\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt:coil-compose:2.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\44d9862e672e94291c1391de936a8690\transformed\coil-compose-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt:coil-compose:2.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\44d9862e672e94291c1391de936a8690\transformed\coil-compose-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt:coil-compose-base:2.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\63d062c2bf430a9c5e4342e2289882cd\transformed\coil-compose-base-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt:coil-compose-base:2.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\63d062c2bf430a9c5e4342e2289882cd\transformed\coil-compose-base-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt:coil:2.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ea649fb19502f3ecba38803bdf71a095\transformed\coil-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt:coil:2.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ea649fb19502f3ecba38803bdf71a095\transformed\coil-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt:coil-base:2.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\c12fd0bd4498e791428102ad8653f19c\transformed\coil-base-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt:coil-base:2.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\c12fd0bd4498e791428102ad8653f19c\transformed\coil-base-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e50aaf4b7f584cf7ed448140db5f9249\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e50aaf4b7f584cf7ed448140db5f9249\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7893548ac091c8c986b8d605000d16dc\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7893548ac091c8c986b8d605000d16dc\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\44005f115b19b4a7fdaa1a93840102db\transformed\firebase-database-21.0.0\AndroidManifest.xml:18:5-44
-MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\44005f115b19b4a7fdaa1a93840102db\transformed\firebase-database-21.0.0\AndroidManifest.xml:18:5-44
-MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\a7dfd00afe7c6e553f9e6d0818922183\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\a7dfd00afe7c6e553f9e6d0818922183\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0ff67cee9d0ec9beb7e615923b3eb0c0\transformed\firebase-common-21.0.0\AndroidManifest.xml:19:5-44
-MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0ff67cee9d0ec9beb7e615923b3eb0c0\transformed\firebase-common-21.0.0\AndroidManifest.xml:19:5-44
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\30bc9c7814ef8f37a94c6a8b52614575\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\30bc9c7814ef8f37a94c6a8b52614575\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\55037b4eb9cb90698e03670074599c41\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\55037b4eb9cb90698e03670074599c41\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\04b76f7d55bc1d8ef08f1f8d02333c50\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\04b76f7d55bc1d8ef08f1f8d02333c50\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\72db4073f79c21bfd9127002406e7a56\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\72db4073f79c21bfd9127002406e7a56\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
-MERGED from [io.sentry:sentry-android-ndk:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6d506c641233be2b4dae6ae5c7a2bff9\transformed\sentry-android-ndk-7.12.0\AndroidManifest.xml:5:5-44
-MERGED from [io.sentry:sentry-android-ndk:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6d506c641233be2b4dae6ae5c7a2bff9\transformed\sentry-android-ndk-7.12.0\AndroidManifest.xml:5:5-44
-MERGED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\27db0330bf5af4fa0586c7e09f9dde24\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:5:5-44
-MERGED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\27db0330bf5af4fa0586c7e09f9dde24\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\f735dc46f63d841573c07537cb9665e0\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\f735dc46f63d841573c07537cb9665e0\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material3:material3:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e23fa4b2fa60d69e89ad58241371384c\transformed\material3-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material3:material3:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e23fa4b2fa60d69e89ad58241371384c\transformed\material3-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6fc1bd67ffcc1ee782eed309082980c9\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:21:5-44
-MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6fc1bd67ffcc1ee782eed309082980c9\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\81cc5c7b7c8c0a83bafb85e4d59bd8bb\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\81cc5c7b7c8c0a83bafb85e4d59bd8bb\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\84e2609d18f8292db99d4772316af749\transformed\animation-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\84e2609d18f8292db99d4772316af749\transformed\animation-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\00e72890e9e576966e3f603b06e6aa5b\transformed\animation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\00e72890e9e576966e3f603b06e6aa5b\transformed\animation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ee2738f1299fae9f50943d5ddd18e36e\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ee2738f1299fae9f50943d5ddd18e36e\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\fc9af82553d9062492eca4892a1040d7\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\fc9af82553d9062492eca4892a1040d7\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6160bf014de55a4b768df3868ad785f0\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6160bf014de55a4b768df3868ad785f0\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\82adbbad38700dd626357296af85dae3\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\82adbbad38700dd626357296af85dae3\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\bfd29079b20e4ee6371a0cdab544abdf\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\bfd29079b20e4ee6371a0cdab544abdf\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-test-manifest:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\bdb61590c511efe59d6b7a5aef370618\transformed\ui-test-manifest-1.6.8\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-test-manifest:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\bdb61590c511efe59d6b7a5aef370618\transformed\ui-test-manifest-1.6.8\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-util-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\327ddb5f321e8ca46223440893dce3d2\transformed\ui-util-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-util-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\327ddb5f321e8ca46223440893dce3d2\transformed\ui-util-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\cc78e2cb2bdce6e507e057b55aba8fe2\transformed\ui-text-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\cc78e2cb2bdce6e507e057b55aba8fe2\transformed\ui-text-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\648968bec82069ee8d25ca07f1c14929\transformed\ui-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\648968bec82069ee8d25ca07f1c14929\transformed\ui-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7b0e28350df9c7c6f9bedbd3f529f405\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7b0e28350df9c7c6f9bedbd3f529f405\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material:material-android:1.5.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\db74cec56903172bbbbeca0ac8f27e4e\transformed\material-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-android:1.5.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\db74cec56903172bbbbeca0ac8f27e4e\transformed\material-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core-android:1.5.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\f56c35b2f7f2f7aa68ef1aecf12a90bf\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core-android:1.5.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\f56c35b2f7f2f7aa68ef1aecf12a90bf\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-ripple-android:1.5.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\1cf600de2bded786a7bcd6b470196980\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-ripple-android:1.5.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\1cf600de2bded786a7bcd6b470196980\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\1896e5db87d709975406a16f3569d737\transformed\foundation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\1896e5db87d709975406a16f3569d737\transformed\foundation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\69005430d54b1b1b5edbb65c1c3cee3d\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\69005430d54b1b1b5edbb65c1c3cee3d\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\2a5dad5588590afb6d4bf2ede2551cc6\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\2a5dad5588590afb6d4bf2ede2551cc6\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\265c7ec7da482742ab652b0af5969b44\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\265c7ec7da482742ab652b0af5969b44\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\1e0974e31fb924a65ab3148f9409ae86\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\1e0974e31fb924a65ab3148f9409ae86\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\a40c86ec66e4246fafefc713d31fae6f\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\a40c86ec66e4246fafefc713d31fae6f\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0b2f9b87d9380a4dd34cb417bd78ca75\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0b2f9b87d9380a4dd34cb417bd78ca75\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e5d7fcab64b02a01b9fc61984f0da776\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e5d7fcab64b02a01b9fc61984f0da776\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\d7db2d5bc864f45e6def534875492681\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\d7db2d5bc864f45e6def534875492681\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0cdbe3eb684d45d59857a0c4d98e50bb\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0cdbe3eb684d45d59857a0c4d98e50bb\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\9ef2a70f3dc8936c47a7ba9d46595cc9\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\9ef2a70f3dc8936c47a7ba9d46595cc9\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6237419d8d26633ce7956f9d5244710b\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6237419d8d26633ce7956f9d5244710b\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\5f1180548a36154150bc8d29ad9a3d0b\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\5f1180548a36154150bc8d29ad9a3d0b\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\5af9d27e2b7f8a562ff8126f216b235d\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\5af9d27e2b7f8a562ff8126f216b235d\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0420dfd97a73f3ee339226ed0a167ef9\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0420dfd97a73f3ee339226ed0a167ef9\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\386cfaa0756853478aefe16391bd817b\transformed\lifecycle-livedata-core-ktx-2.8.6\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\386cfaa0756853478aefe16391bd817b\transformed\lifecycle-livedata-core-ktx-2.8.6\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6c44edfa8f10944832e124208f6d0648\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6c44edfa8f10944832e124208f6d0648\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\dd901a9eabd7d5eeb5de9c4e657e85c1\transformed\lifecycle-livedata-core-2.8.6\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\dd901a9eabd7d5eeb5de9c4e657e85c1\transformed\lifecycle-livedata-core-2.8.6\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\cd629f36043b2a299640a2be5a109dcf\transformed\lifecycle-viewmodel-2.8.6\AndroidManifest.xml:4:5-43
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\cd629f36043b2a299640a2be5a109dcf\transformed\lifecycle-viewmodel-2.8.6\AndroidManifest.xml:4:5-43
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\26fd3f54f15c7b5a2a352ef96ed26164\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\26fd3f54f15c7b5a2a352ef96ed26164\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\9b41b8d3839b031e77c28208c7dd062f\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\9b41b8d3839b031e77c28208c7dd062f\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\33d2b13cbd711e0b2d48d79b575e643a\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\33d2b13cbd711e0b2d48d79b575e643a\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7b84c46ce2d3b535cb5dde8fa646fd02\transformed\lifecycle-viewmodel-savedstate-2.8.6\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7b84c46ce2d3b535cb5dde8fa646fd02\transformed\lifecycle-viewmodel-savedstate-2.8.6\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\9c6eb4078a3c89e5739a8f276d16a000\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\9c6eb4078a3c89e5739a8f276d16a000\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ae2d9c4b59126f098d488d9c2a55e467\transformed\play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ae2d9c4b59126f098d488d9c2a55e467\transformed\play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
-MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0d777faaf354a2b5e66067d6a3a3c00c\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0d777faaf354a2b5e66067d6a3a3c00c\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.9.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e164c07512612771937a4ad3c789defd\transformed\activity-1.9.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.9.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e164c07512612771937a4ad3c789defd\transformed\activity-1.9.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity-ktx:1.9.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\359bbc8d0105cc8d0b19e771d164f3d0\transformed\activity-ktx-1.9.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-ktx:1.9.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\359bbc8d0105cc8d0b19e771d164f3d0\transformed\activity-ktx-1.9.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-compose:1.9.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e36a502adc35e7122ffbbd01a3847188\transformed\activity-compose-1.9.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-compose:1.9.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e36a502adc35e7122ffbbd01a3847188\transformed\activity-compose-1.9.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.3] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\d1f4eafa3436712eef5795e63f205996\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.3] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\d1f4eafa3436712eef5795e63f205996\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.7.3] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\dd0c0af2d1278369a4b31157df1c4ca6\transformed\runtime-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.7.3] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\dd0c0af2d1278369a4b31157df1c4ca6\transformed\runtime-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-livedata:1.7.3] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\449a4729c2b0e736067aa78bd9a68b15\transformed\runtime-livedata-1.7.3\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-livedata:1.7.3] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\449a4729c2b0e736067aa78bd9a68b15\transformed\runtime-livedata-1.7.3\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\c3aa938530d28d8aa4dd8c64b00f3ff4\transformed\lifecycle-livedata-2.8.6\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\c3aa938530d28d8aa4dd8c64b00f3ff4\transformed\lifecycle-livedata-2.8.6\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\b71246184bbefcc9932911ca6f821927\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\b71246184bbefcc9932911ca6f821927\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\05d6ce8355f4820f2db9047041bec02a\transformed\lifecycle-viewmodel-ktx-2.8.6\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\05d6ce8355f4820f2db9047041bec02a\transformed\lifecycle-viewmodel-ktx-2.8.6\AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\8023e1f785014d3264c838e47b570856\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\8023e1f785014d3264c838e47b570856\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e61b2afa2c7ded1c3fae514e9e297e92\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e61b2afa2c7ded1c3fae514e9e297e92\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6eced2ca13ac17ea68aa6725940e099b\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6eced2ca13ac17ea68aa6725940e099b\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\357a1cccfcba32b00f43e0b0f81f992f\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
-MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\357a1cccfcba32b00f43e0b0f81f992f\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\f42a2475601f2ff8516e4dd5d2231a71\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\f42a2475601f2ff8516e4dd5d2231a71\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\2ba32093988e17ed673e9ff83631b406\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\2ba32093988e17ed673e9ff83631b406\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\736947373a20d3949578808c10d21d2f\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\736947373a20d3949578808c10d21d2f\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\1f28e950f000341a69e51132b85ef15f\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\1f28e950f000341a69e51132b85ef15f\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\898a5799947c6a3cb96a57abcf52e20c\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\898a5799947c6a3cb96a57abcf52e20c\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e6196320271241ad5a57d7c491faf4f2\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e6196320271241ad5a57d7c491faf4f2\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [io.sentry:sentry-android:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\279cddef83c24f9ea588a7fc605fe881\transformed\sentry-android-7.12.0\AndroidManifest.xml:6:5-8:57
+MERGED from [io.sentry:sentry-android:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\279cddef83c24f9ea588a7fc605fe881\transformed\sentry-android-7.12.0\AndroidManifest.xml:6:5-8:57
+MERGED from [io.sentry:sentry-android-replay:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\96b15362febaf4ee8036028988d27667\transformed\sentry-android-replay-7.12.0\AndroidManifest.xml:5:5-44
+MERGED from [io.sentry:sentry-android-replay:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\96b15362febaf4ee8036028988d27667\transformed\sentry-android-replay-7.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\838707bb35c06cb27ba6dd718c448189\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\838707bb35c06cb27ba6dd718c448189\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\77e0d08acf76dda4fc4822382f674959\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\77e0d08acf76dda4fc4822382f674959\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\fbe0aca45929047358d6b811f26f56b3\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\fbe0aca45929047358d6b811f26f56b3\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7acc7477eeaa6ceb2f7c6ae705e05a47\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7acc7477eeaa6ceb2f7c6ae705e05a47\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\2f0fc33c0da0c8e7f29859515679e71d\transformed\navigation-compose-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\2f0fc33c0da0c8e7f29859515679e71d\transformed\navigation-compose-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6fd45e7a61d6cb8e25e0bdd5453c924c\transformed\coil-compose-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6fd45e7a61d6cb8e25e0bdd5453c924c\transformed\coil-compose-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\06799e8603ecfd76baaa6f89589fdd2b\transformed\coil-compose-base-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\06799e8603ecfd76baaa6f89589fdd2b\transformed\coil-compose-base-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0b14a2ef7a88b7c3840f09d268cd34ce\transformed\coil-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0b14a2ef7a88b7c3840f09d268cd34ce\transformed\coil-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\4d83b127784b0c28612451a5d1ad64b8\transformed\coil-base-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\4d83b127784b0c28612451a5d1ad64b8\transformed\coil-base-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\fd18d0c04f77e282d7023b71e08c7c79\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\fd18d0c04f77e282d7023b71e08c7c79\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\31427ef61b2939b23ae5f98ee9681747\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\31427ef61b2939b23ae5f98ee9681747\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\88bab9c738aec5b6a0505eead1bc2a1e\transformed\firebase-database-21.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\88bab9c738aec5b6a0505eead1bc2a1e\transformed\firebase-database-21.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\3c4e121990de021f8f819faad6f17cb1\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\3c4e121990de021f8f819faad6f17cb1\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7e43c0fc29067313815ec6d16749ce21\transformed\firebase-common-21.0.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7e43c0fc29067313815ec6d16749ce21\transformed\firebase-common-21.0.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\dc3c865ac436d86aa7c8e5cfa3962d14\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\dc3c865ac436d86aa7c8e5cfa3962d14\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\05713962d6eabf56e16ac9cc9f3841f2\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\05713962d6eabf56e16ac9cc9f3841f2\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\bdac8d63c1002464cb0daaa3e3b9c89e\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\bdac8d63c1002464cb0daaa3e3b9c89e\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ec0556f886387fbff2a7d2571df502d9\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ec0556f886387fbff2a7d2571df502d9\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [io.sentry:sentry-android-ndk:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\4776d05d3f763393812252aa4a8f2c64\transformed\sentry-android-ndk-7.12.0\AndroidManifest.xml:5:5-44
+MERGED from [io.sentry:sentry-android-ndk:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\4776d05d3f763393812252aa4a8f2c64\transformed\sentry-android-ndk-7.12.0\AndroidManifest.xml:5:5-44
+MERGED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\da7f3a4ab8726c47d09b3ffe50759e2a\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:5:5-44
+MERGED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\da7f3a4ab8726c47d09b3ffe50759e2a\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\70f1919aba06e275ed1639894813c2cd\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\70f1919aba06e275ed1639894813c2cd\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\703c9ab5604f1e67d268953797027aae\transformed\material3-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\703c9ab5604f1e67d268953797027aae\transformed\material3-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\cbc929f89799d3b27cd5920abbe54ab3\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\cbc929f89799d3b27cd5920abbe54ab3\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7712c511af0f2f56befdca379035bbfe\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7712c511af0f2f56befdca379035bbfe\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\5cfc8f4bfb2aca802d12e90f2499761d\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\5cfc8f4bfb2aca802d12e90f2499761d\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\5e435f52a7ebe33059c8a9378fb38a10\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\5e435f52a7ebe33059c8a9378fb38a10\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\bfbcebd143f91dfaebe2d101bdb29923\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\bfbcebd143f91dfaebe2d101bdb29923\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\646d81e86adb0677040f130926cd1865\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\646d81e86adb0677040f130926cd1865\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\509785d15f13ded46276fa3e16650371\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\509785d15f13ded46276fa3e16650371\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\98c2baa68c6d7f4f14f02ceeeeae2ed1\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\98c2baa68c6d7f4f14f02ceeeeae2ed1\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\d991bfc7798d2ce960edf6911e5a6a19\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\d991bfc7798d2ce960edf6911e5a6a19\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\f0df324c78b116fb132b84e50358e23a\transformed\ui-test-manifest-1.6.8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\f0df324c78b116fb132b84e50358e23a\transformed\ui-test-manifest-1.6.8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\105d57b3825c3a6434ffb112d8fc3673\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\105d57b3825c3a6434ffb112d8fc3673\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\4606ffb8c67e14aafa9e9eb9fde04540\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\4606ffb8c67e14aafa9e9eb9fde04540\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\deb59efb7d5a10aad8e9b82f4ab5ff47\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\deb59efb7d5a10aad8e9b82f4ab5ff47\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e0adfa9e7c9d770110abee8fa00b26b0\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e0adfa9e7c9d770110abee8fa00b26b0\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.5.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\bffd8af88476a72a1081557f4bb94786\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.5.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\bffd8af88476a72a1081557f4bb94786\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\df725da0408f958d798c99187568d91f\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\df725da0408f958d798c99187568d91f\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.5.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\1348150e01a911c305c0738d873ce38c\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.5.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\1348150e01a911c305c0738d873ce38c\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\dc8b85b38234d7fccd30a8f1099c324a\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\dc8b85b38234d7fccd30a8f1099c324a\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6aac3cf847601eaba70386004fcf294a\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6aac3cf847601eaba70386004fcf294a\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7e7b4ad1806b7e17fa50e565218dfaf3\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7e7b4ad1806b7e17fa50e565218dfaf3\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\88d20f5ee17cad5a672a5fc7eaa9caef\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\88d20f5ee17cad5a672a5fc7eaa9caef\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\faced0cabe0cf9474a583892e57fe489\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\faced0cabe0cf9474a583892e57fe489\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\033c44e44747196462cfa3ea01ce2524\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\033c44e44747196462cfa3ea01ce2524\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6a6be731bb5d6f16e26b56c1c1fc4e86\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6a6be731bb5d6f16e26b56c1c1fc4e86\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\331f900312cb398c633e28a20793af66\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\331f900312cb398c633e28a20793af66\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\5fd0650becf65482881c587a6e4022dd\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\5fd0650becf65482881c587a6e4022dd\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7a9a9628b8910298d4e9f6ab8a3ee97c\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7a9a9628b8910298d4e9f6ab8a3ee97c\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\51fbe4cb365e7619468085493fd41dd9\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\51fbe4cb365e7619468085493fd41dd9\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ab8f5cda4b1f38fb4c62fb438fa3f984\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ab8f5cda4b1f38fb4c62fb438fa3f984\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\db080384db68ad73afb6a2b6009cce4b\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\db080384db68ad73afb6a2b6009cce4b\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6eb8daf5a26133e6afc6396dd8e1c22e\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6eb8daf5a26133e6afc6396dd8e1c22e\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\c09962d08d49eb0daf0617a06cb58dea\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\c09962d08d49eb0daf0617a06cb58dea\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\a441c7c6c1a87d88d486219121d4139f\transformed\lifecycle-livedata-core-ktx-2.8.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\a441c7c6c1a87d88d486219121d4139f\transformed\lifecycle-livedata-core-ktx-2.8.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\44760ace625d9d78d7834efaba9dc9ea\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\44760ace625d9d78d7834efaba9dc9ea\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e3c6a24c4152477fe9bc7950e802d133\transformed\lifecycle-livedata-core-2.8.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e3c6a24c4152477fe9bc7950e802d133\transformed\lifecycle-livedata-core-2.8.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\c772d227441907ec219fcf6f9c57008e\transformed\lifecycle-viewmodel-2.8.6\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\c772d227441907ec219fcf6f9c57008e\transformed\lifecycle-viewmodel-2.8.6\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\158844c21241063cf2676293fb51e61f\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\158844c21241063cf2676293fb51e61f\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\c7f17d90a3f808ec08508ccb44a2bca1\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\c7f17d90a3f808ec08508ccb44a2bca1\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\fcd6f7b5a8ff2cea1f4ee0a1ab322c65\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\fcd6f7b5a8ff2cea1f4ee0a1ab322c65\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\cda355117ec7ce0d314a7bf9c7fab527\transformed\lifecycle-viewmodel-savedstate-2.8.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\cda355117ec7ce0d314a7bf9c7fab527\transformed\lifecycle-viewmodel-savedstate-2.8.6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7f26a8699c467646762ff134444a6e88\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7f26a8699c467646762ff134444a6e88\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\97ce983eeda816d198bbcb4d199aa702\transformed\play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\97ce983eeda816d198bbcb4d199aa702\transformed\play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\4d4da32025b7d2971d109a9688ceca5e\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\4d4da32025b7d2971d109a9688ceca5e\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.9.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\48651a46c67a03cc6f4a1dad370215a4\transformed\activity-1.9.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\48651a46c67a03cc6f4a1dad370215a4\transformed\activity-1.9.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\9b6aaa390e6121871e9559c286505861\transformed\activity-ktx-1.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\9b6aaa390e6121871e9559c286505861\transformed\activity-ktx-1.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\493f4eb16465ee334bcdd55b49858943\transformed\activity-compose-1.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\493f4eb16465ee334bcdd55b49858943\transformed\activity-compose-1.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.3] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\f93c457ebc0adccaa3f1d0121e25ee63\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.3] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\f93c457ebc0adccaa3f1d0121e25ee63\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.3] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\119d55248b07f0c42942269cba3f6939\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.3] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\119d55248b07f0c42942269cba3f6939\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-livedata:1.7.3] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\67265ecc46a832f18ff3fda8e9584e2b\transformed\runtime-livedata-1.7.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-livedata:1.7.3] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\67265ecc46a832f18ff3fda8e9584e2b\transformed\runtime-livedata-1.7.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\a752f4590ea635e298294949efb2b165\transformed\lifecycle-livedata-2.8.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\a752f4590ea635e298294949efb2b165\transformed\lifecycle-livedata-2.8.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\d160373f7245fc669f3bd579bb79f354\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\d160373f7245fc669f3bd579bb79f354\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\eb13f57e2e780c535ce1d5cb3877fc0b\transformed\lifecycle-viewmodel-ktx-2.8.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\eb13f57e2e780c535ce1d5cb3877fc0b\transformed\lifecycle-viewmodel-ktx-2.8.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\19ea0d50a89f971b90fbf6df263342b6\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\19ea0d50a89f971b90fbf6df263342b6\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\d3eef7f532deebe3ca4030270704c36f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\d3eef7f532deebe3ca4030270704c36f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ae693c25d6d326c64bb18f6eb51f3815\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ae693c25d6d326c64bb18f6eb51f3815\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\b726f6bbd3085555d82953aa4a111488\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\b726f6bbd3085555d82953aa4a111488\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\4a9a38bbbe5a80756765116f719355ea\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\4a9a38bbbe5a80756765116f719355ea\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\83d1d6f231bdd1a80b06a0abec0afc03\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\83d1d6f231bdd1a80b06a0abec0afc03\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\d0fbdd22e1fb307c737013d04c04434c\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\d0fbdd22e1fb307c737013d04c04434c\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\37d0f7dd01cbfd1c3ff769eac2581b6f\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\37d0f7dd01cbfd1c3ff769eac2581b6f\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\a08420f512846e1d18f8c99158bd8b29\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\a08420f512846e1d18f8c99158bd8b29\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
 	tools:overrideLibrary
-		ADDED from [io.sentry:sentry-android:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\1174dc8ee6624d9160ae6569c17e303a\transformed\sentry-android-7.12.0\AndroidManifest.xml:8:9-54
+		ADDED from [io.sentry:sentry-android:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\279cddef83c24f9ea588a7fc605fe881\transformed\sentry-android-7.12.0\AndroidManifest.xml:8:9-54
 	android:targetSdkVersion
 		INJECTED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\084e9314261cd89fb27e1ea20970b665\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
-MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\44005f115b19b4a7fdaa1a93840102db\transformed\firebase-database-21.0.0\AndroidManifest.xml:26:9-35:19
-MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\44005f115b19b4a7fdaa1a93840102db\transformed\firebase-database-21.0.0\AndroidManifest.xml:26:9-35:19
-MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\a7dfd00afe7c6e553f9e6d0818922183\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
-MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\a7dfd00afe7c6e553f9e6d0818922183\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
-MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0ff67cee9d0ec9beb7e615923b3eb0c0\transformed\firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
-MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0ff67cee9d0ec9beb7e615923b3eb0c0\transformed\firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
+ADDED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e6196320271241ad5a57d7c491faf4f2\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\88bab9c738aec5b6a0505eead1bc2a1e\transformed\firebase-database-21.0.0\AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\88bab9c738aec5b6a0505eead1bc2a1e\transformed\firebase-database-21.0.0\AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\3c4e121990de021f8f819faad6f17cb1\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\3c4e121990de021f8f819faad6f17cb1\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7e43c0fc29067313815ec6d16749ce21\transformed\firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7e43c0fc29067313815ec6d16749ce21\transformed\firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\084e9314261cd89fb27e1ea20970b665\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:11:13-37
+		ADDED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e6196320271241ad5a57d7c491faf4f2\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:11:13-37
 	tools:targetApi
-		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0ff67cee9d0ec9beb7e615923b3eb0c0\transformed\firebase-common-21.0.0\AndroidManifest.xml:34:13-32
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7e43c0fc29067313815ec6d16749ce21\transformed\firebase-common-21.0.0\AndroidManifest.xml:34:13-32
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0ff67cee9d0ec9beb7e615923b3eb0c0\transformed\firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7e43c0fc29067313815ec6d16749ce21\transformed\firebase-common-21.0.0\AndroidManifest.xml:32:13-43
 	android:name
-		ADDED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\084e9314261cd89fb27e1ea20970b665\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:10:13-84
+		ADDED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e6196320271241ad5a57d7c491faf4f2\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:10:13-84
 meta-data#com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseLegacyRegistrar
-ADDED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\084e9314261cd89fb27e1ea20970b665\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+ADDED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e6196320271241ad5a57d7c491faf4f2\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
 	android:value
-		ADDED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\084e9314261cd89fb27e1ea20970b665\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:14:17-82
+		ADDED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e6196320271241ad5a57d7c491faf4f2\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:14:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\084e9314261cd89fb27e1ea20970b665\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:13:17-127
+		ADDED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e6196320271241ad5a57d7c491faf4f2\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:13:17-127
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\44005f115b19b4a7fdaa1a93840102db\transformed\firebase-database-21.0.0\AndroidManifest.xml:22:5-79
+ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\88bab9c738aec5b6a0505eead1bc2a1e\transformed\firebase-database-21.0.0\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\44005f115b19b4a7fdaa1a93840102db\transformed\firebase-database-21.0.0\AndroidManifest.xml:22:22-76
+		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\88bab9c738aec5b6a0505eead1bc2a1e\transformed\firebase-database-21.0.0\AndroidManifest.xml:22:22-76
 meta-data#com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar
-ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\44005f115b19b4a7fdaa1a93840102db\transformed\firebase-database-21.0.0\AndroidManifest.xml:29:13-31:85
+ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\88bab9c738aec5b6a0505eead1bc2a1e\transformed\firebase-database-21.0.0\AndroidManifest.xml:29:13-31:85
 	android:value
-		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\44005f115b19b4a7fdaa1a93840102db\transformed\firebase-database-21.0.0\AndroidManifest.xml:31:17-82
+		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\88bab9c738aec5b6a0505eead1bc2a1e\transformed\firebase-database-21.0.0\AndroidManifest.xml:31:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\44005f115b19b4a7fdaa1a93840102db\transformed\firebase-database-21.0.0\AndroidManifest.xml:30:17-120
+		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\88bab9c738aec5b6a0505eead1bc2a1e\transformed\firebase-database-21.0.0\AndroidManifest.xml:30:17-120
 meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
-ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\44005f115b19b4a7fdaa1a93840102db\transformed\firebase-database-21.0.0\AndroidManifest.xml:32:13-34:85
+ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\88bab9c738aec5b6a0505eead1bc2a1e\transformed\firebase-database-21.0.0\AndroidManifest.xml:32:13-34:85
 	android:value
-		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\44005f115b19b4a7fdaa1a93840102db\transformed\firebase-database-21.0.0\AndroidManifest.xml:34:17-82
+		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\88bab9c738aec5b6a0505eead1bc2a1e\transformed\firebase-database-21.0.0\AndroidManifest.xml:34:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\44005f115b19b4a7fdaa1a93840102db\transformed\firebase-database-21.0.0\AndroidManifest.xml:33:17-109
+		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\88bab9c738aec5b6a0505eead1bc2a1e\transformed\firebase-database-21.0.0\AndroidManifest.xml:33:17-109
 meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
-ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\a7dfd00afe7c6e553f9e6d0818922183\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\3c4e121990de021f8f819faad6f17cb1\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
 	android:value
-		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\a7dfd00afe7c6e553f9e6d0818922183\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\3c4e121990de021f8f819faad6f17cb1\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\a7dfd00afe7c6e553f9e6d0818922183\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\3c4e121990de021f8f819faad6f17cb1\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0ff67cee9d0ec9beb7e615923b3eb0c0\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7e43c0fc29067313815ec6d16749ce21\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0ff67cee9d0ec9beb7e615923b3eb0c0\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7e43c0fc29067313815ec6d16749ce21\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0ff67cee9d0ec9beb7e615923b3eb0c0\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7e43c0fc29067313815ec6d16749ce21\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0ff67cee9d0ec9beb7e615923b3eb0c0\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7e43c0fc29067313815ec6d16749ce21\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0ff67cee9d0ec9beb7e615923b3eb0c0\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7e43c0fc29067313815ec6d16749ce21\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0ff67cee9d0ec9beb7e615923b3eb0c0\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7e43c0fc29067313815ec6d16749ce21\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
 meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
-ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0ff67cee9d0ec9beb7e615923b3eb0c0\transformed\firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7e43c0fc29067313815ec6d16749ce21\transformed\firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
 	android:value
-		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0ff67cee9d0ec9beb7e615923b3eb0c0\transformed\firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7e43c0fc29067313815ec6d16749ce21\transformed\firebase-common-21.0.0\AndroidManifest.xml:37:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\0ff67cee9d0ec9beb7e615923b3eb0c0\transformed\firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7e43c0fc29067313815ec6d16749ce21\transformed\firebase-common-21.0.0\AndroidManifest.xml:36:17-109
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\72db4073f79c21bfd9127002406e7a56\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ec0556f886387fbff2a7d2571df502d9\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\72db4073f79c21bfd9127002406e7a56\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ec0556f886387fbff2a7d2571df502d9\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\72db4073f79c21bfd9127002406e7a56\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ec0556f886387fbff2a7d2571df502d9\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\72db4073f79c21bfd9127002406e7a56\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ec0556f886387fbff2a7d2571df502d9\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
 provider#io.sentry.android.core.SentryInitProvider
-ADDED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\27db0330bf5af4fa0586c7e09f9dde24\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:12:9-15:40
+ADDED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\da7f3a4ab8726c47d09b3ffe50759e2a\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:12:9-15:40
 	android:authorities
-		ADDED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\27db0330bf5af4fa0586c7e09f9dde24\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:14:13-70
+		ADDED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\da7f3a4ab8726c47d09b3ffe50759e2a\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:14:13-70
 	android:exported
-		ADDED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\27db0330bf5af4fa0586c7e09f9dde24\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:15:13-37
+		ADDED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\da7f3a4ab8726c47d09b3ffe50759e2a\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:15:13-37
 	android:name
-		ADDED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\27db0330bf5af4fa0586c7e09f9dde24\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:13:13-69
+		ADDED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\da7f3a4ab8726c47d09b3ffe50759e2a\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:13:13-69
 provider#io.sentry.android.core.SentryPerformanceProvider
-ADDED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\27db0330bf5af4fa0586c7e09f9dde24\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:16:9-20:39
+ADDED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\da7f3a4ab8726c47d09b3ffe50759e2a\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:16:9-20:39
 	android:authorities
-		ADDED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\27db0330bf5af4fa0586c7e09f9dde24\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:18:13-77
+		ADDED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\da7f3a4ab8726c47d09b3ffe50759e2a\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:18:13-77
 	android:exported
-		ADDED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\27db0330bf5af4fa0586c7e09f9dde24\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:19:13-37
+		ADDED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\da7f3a4ab8726c47d09b3ffe50759e2a\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:19:13-37
 	android:initOrder
-		ADDED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\27db0330bf5af4fa0586c7e09f9dde24\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:20:13-36
+		ADDED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\da7f3a4ab8726c47d09b3ffe50759e2a\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:20:13-36
 	android:name
-		ADDED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\27db0330bf5af4fa0586c7e09f9dde24\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:17:13-76
+		ADDED from [io.sentry:sentry-android-core:7.12.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\da7f3a4ab8726c47d09b3ffe50759e2a\transformed\sentry-android-core-7.12.0\AndroidManifest.xml:17:13-76
 activity#androidx.activity.ComponentActivity
-ADDED from [androidx.compose.ui:ui-test-manifest:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\bdb61590c511efe59d6b7a5aef370618\transformed\ui-test-manifest-1.6.8\AndroidManifest.xml:23:9-25:39
+ADDED from [androidx.compose.ui:ui-test-manifest:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\f0df324c78b116fb132b84e50358e23a\transformed\ui-test-manifest-1.6.8\AndroidManifest.xml:23:9-25:39
 	android:exported
-		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\bdb61590c511efe59d6b7a5aef370618\transformed\ui-test-manifest-1.6.8\AndroidManifest.xml:25:13-36
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\f0df324c78b116fb132b84e50358e23a\transformed\ui-test-manifest-1.6.8\AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\bdb61590c511efe59d6b7a5aef370618\transformed\ui-test-manifest-1.6.8\AndroidManifest.xml:24:13-63
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\f0df324c78b116fb132b84e50358e23a\transformed\ui-test-manifest-1.6.8\AndroidManifest.xml:24:13-63
 activity#androidx.compose.ui.tooling.PreviewActivity
-ADDED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7b0e28350df9c7c6f9bedbd3f529f405\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+ADDED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e0adfa9e7c9d770110abee8fa00b26b0\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
 	android:exported
-		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7b0e28350df9c7c6f9bedbd3f529f405\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e0adfa9e7c9d770110abee8fa00b26b0\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\7b0e28350df9c7c6f9bedbd3f529f405\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\e0adfa9e7c9d770110abee8fa00b26b0\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
 provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\69005430d54b1b1b5edbb65c1c3cee3d\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\33d2b13cbd711e0b2d48d79b575e643a\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\33d2b13cbd711e0b2d48d79b575e643a\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\2ba32093988e17ed673e9ff83631b406\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\2ba32093988e17ed673e9ff83631b406\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6aac3cf847601eaba70386004fcf294a\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\fcd6f7b5a8ff2cea1f4ee0a1ab322c65\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\fcd6f7b5a8ff2cea1f4ee0a1ab322c65\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\83d1d6f231bdd1a80b06a0abec0afc03\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\83d1d6f231bdd1a80b06a0abec0afc03\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
 	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\69005430d54b1b1b5edbb65c1c3cee3d\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6aac3cf847601eaba70386004fcf294a\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
 	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\69005430d54b1b1b5edbb65c1c3cee3d\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6aac3cf847601eaba70386004fcf294a\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\69005430d54b1b1b5edbb65c1c3cee3d\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6aac3cf847601eaba70386004fcf294a\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\69005430d54b1b1b5edbb65c1c3cee3d\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6aac3cf847601eaba70386004fcf294a\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\69005430d54b1b1b5edbb65c1c3cee3d\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6aac3cf847601eaba70386004fcf294a\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\69005430d54b1b1b5edbb65c1c3cee3d\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6aac3cf847601eaba70386004fcf294a\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\69005430d54b1b1b5edbb65c1c3cee3d\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6aac3cf847601eaba70386004fcf294a\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6237419d8d26633ce7956f9d5244710b\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ab8f5cda4b1f38fb4c62fb438fa3f984\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6237419d8d26633ce7956f9d5244710b\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ab8f5cda4b1f38fb4c62fb438fa3f984\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6237419d8d26633ce7956f9d5244710b\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ab8f5cda4b1f38fb4c62fb438fa3f984\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
 permission#com.app.lockcomposeChild.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6237419d8d26633ce7956f9d5244710b\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ab8f5cda4b1f38fb4c62fb438fa3f984\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6237419d8d26633ce7956f9d5244710b\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ab8f5cda4b1f38fb4c62fb438fa3f984\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6237419d8d26633ce7956f9d5244710b\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ab8f5cda4b1f38fb4c62fb438fa3f984\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
 uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6237419d8d26633ce7956f9d5244710b\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ab8f5cda4b1f38fb4c62fb438fa3f984\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6237419d8d26633ce7956f9d5244710b\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ab8f5cda4b1f38fb4c62fb438fa3f984\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
 uses-permission#com.app.lockcomposeChild.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6237419d8d26633ce7956f9d5244710b\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ab8f5cda4b1f38fb4c62fb438fa3f984\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\6237419d8d26633ce7956f9d5244710b\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ab8f5cda4b1f38fb4c62fb438fa3f984\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\33d2b13cbd711e0b2d48d79b575e643a\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\fcd6f7b5a8ff2cea1f4ee0a1ab322c65\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\33d2b13cbd711e0b2d48d79b575e643a\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:31:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\fcd6f7b5a8ff2cea1f4ee0a1ab322c65\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\33d2b13cbd711e0b2d48d79b575e643a\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:30:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\fcd6f7b5a8ff2cea1f4ee0a1ab322c65\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:30:17-78
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ae2d9c4b59126f098d488d9c2a55e467\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\97ce983eeda816d198bbcb4d199aa702\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ae2d9c4b59126f098d488d9c2a55e467\transformed\play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\97ce983eeda816d198bbcb4d199aa702\transformed\play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ae2d9c4b59126f098d488d9c2a55e467\transformed\play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\97ce983eeda816d198bbcb4d199aa702\transformed\play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
 receiver#androidx.profileinstaller.ProfileInstallReceiver
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
 	android:enabled
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
 	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
 	android:permission
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
 	android:directBootAware
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
 intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
 action#androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
 intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
 action#androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
 intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
 action#androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
 intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
 action#androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ceef97714e0ededb6144bbde28e1bab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ac8017e47c44abb2abde84c895b3e046\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92

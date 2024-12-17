@@ -1,4 +1,4 @@
-#Tue Dec 10 22:35:13 CET 2024
+#Sun Dec 15 16:28:14 CET 2024
 base.0=C\:\\Users\\BreezyWeezy\\Documents\\QrCodeChild\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
 base.1=C\:\\Users\\BreezyWeezy\\Documents\\QrCodeChild\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
 base.2=C\:\\Users\\BreezyWeezy\\Documents\\QrCodeChild\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\6\\classes.dex
