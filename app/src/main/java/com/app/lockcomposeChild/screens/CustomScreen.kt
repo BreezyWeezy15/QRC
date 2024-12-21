@@ -61,6 +61,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
+import androidx.navigation.NavController
 import com.app.lockcomposeChild.R
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
@@ -73,7 +74,7 @@ import java.util.UUID
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun CustomScreen() {
+fun CustomScreen(navController: NavController) {
 
     val context = LocalContext.current
     val appsList = remember { mutableStateOf<List<InstalledApps>>(emptyList()) }
@@ -103,21 +104,26 @@ fun CustomScreen() {
                     val base64Icon = childSnapshot.child("icon").getValue(String::class.java) ?: ""
                     val interval = childSnapshot.child("interval").getValue(String::class.java) ?: ""
                     val pinCode = childSnapshot.child("pin_code").getValue(String::class.java) ?: ""
+                    val profileType = childSnapshot.child("profile_type").getValue(String::class.java) ?: ""
 
-                    val iconBitmap = base64ToBitmaps(base64Icon)
+                    if(profileType == "custom"){
+                        navController.navigate("child")
+                    } else {
+                        val iconBitmap = base64ToBitmaps(base64Icon)
 
-                    val installedApp = iconBitmap?.let {
-                        InstalledApps(
-                            packageName = packageName,
-                            name = name,
-                            icon = it,
-                            interval = interval,
-                            pinCode = pinCode
-                        )
-                    }
+                        val installedApp = iconBitmap?.let {
+                            InstalledApps(
+                                packageName = packageName,
+                                name = name,
+                                icon = it,
+                                interval = interval,
+                                pinCode = pinCode
+                            )
+                        }
 
-                    if (installedApp != null) {
-                        updatedList.add(installedApp)
+                        if (installedApp != null) {
+                            updatedList.add(installedApp)
+                        }
                     }
                 }
                 appsList.value = updatedList
@@ -165,7 +171,7 @@ fun CustomScreen() {
                 Column(
                     modifier = Modifier
                         .fillMaxSize()
-                        .padding(bottom = 80.dp)  // Ensure space for button
+                        .padding(bottom = 80.dp)
                 ) {
                     if (isLoading.value) {
                         Box(
@@ -197,7 +203,7 @@ fun CustomScreen() {
                         .fillMaxWidth()
                         .height(70.dp)
                         .align(Alignment.BottomCenter),
-                    shape = RectangleShape, // No corners
+                    shape = RectangleShape,
                     colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.primary)
                 ) {
                     Text("Submit")

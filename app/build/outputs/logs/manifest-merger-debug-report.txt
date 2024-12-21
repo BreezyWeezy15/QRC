@@ -171,7 +171,7 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\BreezyWeezy\.gradl
 	android:icon
 		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:15:9-43
 	android:allowBackup
-		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:12:9-36
 	android:theme
 		ADDED from C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:19:9-49
 	android:dataExtractionRules

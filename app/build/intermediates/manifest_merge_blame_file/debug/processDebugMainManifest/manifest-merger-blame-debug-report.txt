@@ -34,8 +34,8 @@
 23
 24    <application
 24-->C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:11:5-71:19
-25        android:allowBackup="true"
-25-->C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:12:9-35
+25        android:allowBackup="false"
+25-->C:\Users\BreezyWeezy\Documents\QrCodeChild\app\src\main\AndroidManifest.xml:12:9-36
 26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 26-->[androidx.core:core:1.13.1] C:\Users\BreezyWeezy\.gradle\caches\transforms-4\ab8f5cda4b1f38fb4c62fb438fa3f984\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 27        android:dataExtractionRules="@xml/data_extraction_rules"

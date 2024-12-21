@@ -51,6 +51,7 @@ import androidx.core.graphics.drawable.toBitmap
 import androidx.navigation.NavController
 import com.app.lockcomposeChild.R
 import com.google.firebase.database.DataSnapshot
+import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import java.io.ByteArrayOutputStream
@@ -62,7 +63,7 @@ import java.io.ByteArrayOutputStream
 @Composable
 fun ChildScreen(navController: NavController) {
     val context = LocalContext.current
-    var profileType by remember { mutableStateOf("No Selected Profile") } // Default to "No Selected Profile"
+    var profileType by remember { mutableStateOf("No Selected Profile") }
     var installedApps by remember { mutableStateOf(listOf<InstalledApp>()) }
     val showQRCode = remember { mutableStateOf(false) }
     val qrData = remember { "${getDeviceName()},${generateDeviceID(context)}" }
@@ -70,25 +71,28 @@ fun ChildScreen(navController: NavController) {
 
 
     LaunchedEffect(Unit) {
-        val firebaseDatabase = FirebaseDatabase.getInstance().getReference().child("Apps")
-            .child(generateDeviceID(context))
 
-        firebaseDatabase.child("type").get()
-            .addOnSuccessListener { snapshot ->
-                profileType = snapshot.getValue(String::class.java) ?: "No Selected Profile"
-                installedApps = getAppsForProfile(context, profileType)  // Get apps for the selected profile
+        val firebaseDatabase = FirebaseDatabase.getInstance().getReference()
+            .child("Apps").child(generateDeviceID(context))
+
+        firebaseDatabase.addValueEventListener(object : ValueEventListener {
+            override fun onDataChange(snapshot: DataSnapshot) {
+                profileType = snapshot.child("type").getValue(String::class.java) ?: "No Selected Profile"
+                if(profileType == "Custom"){
+                    navController.navigate("custom")
+                } else {
+                    installedApps = getAppsForProfile(context, profileType)
+                }
             }
-            .addOnFailureListener {
-                Toast.makeText(context, "Failed to fetch profile", Toast.LENGTH_SHORT).show()
+
+            override fun onCancelled(error: DatabaseError) {
+                Toast.makeText(context, "Failed to fetch profile: ${error.message}", Toast.LENGTH_SHORT).show()
             }
+        })
     }
 
-    // QR Code Dialog
     if (showQRCode.value && qrCodeBitmap != null) {
-        Dialog(onDismissRequest = {
-            uploadInstalledAppsOnStart(context)
-            showQRCode.value = false
-        }) {
+        Dialog(onDismissRequest = { showQRCode.value = false }) {
             Box(
                 modifier = Modifier.fillMaxWidth().padding(16.dp),
                 contentAlignment = Alignment.Center
@@ -111,14 +115,13 @@ fun ChildScreen(navController: NavController) {
         }
     }
 
-    // Main UI
+
     Column(
         modifier = Modifier
             .fillMaxSize()
             .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // TopAppBar with QR Code Button
         TopAppBar(
             title = { Text(profileType, color = Color.Black) },
             actions = {
@@ -133,7 +136,6 @@ fun ChildScreen(navController: NavController) {
             colors = TopAppBarDefaults.topAppBarColors(containerColor = Color.LightGray)
         )
 
-        // App Grid
         LazyVerticalGrid(
             columns = GridCells.Fixed(2),
             horizontalArrangement = Arrangement.spacedBy(16.dp),
@@ -145,34 +147,29 @@ fun ChildScreen(navController: NavController) {
                     modifier = Modifier
                         .fillMaxWidth()
                         .padding(8.dp),
-                    elevation = CardDefaults.cardElevation(8.dp), // Elevation for shadow effect
-                    shape = MaterialTheme.shapes.medium // Rounded corners
+                    elevation = CardDefaults.cardElevation(8.dp),
+                    shape = MaterialTheme.shapes.medium
                 ) {
                     Column(
                         horizontalAlignment = Alignment.CenterHorizontally,
                         modifier = Modifier
                             .fillMaxWidth()
-                            .padding(16.dp) // Padding inside the card
+                            .padding(16.dp)
                     ) {
-                        // App Icon
                         Image(
                             painter = BitmapPainter(app.icon.toBitmap().asImageBitmap()),
                             contentDescription = app.name,
                             modifier = Modifier
                                 .size(64.dp)
-                                .clip(CircleShape) // Make the icon circular
-                                .border(2.dp, MaterialTheme.colorScheme.primary, CircleShape), // Add a border to the icon
+                                .clip(CircleShape)
+                                .border(2.dp, MaterialTheme.colorScheme.primary, CircleShape),
                             contentScale = ContentScale.Crop
                         )
-
-                        // Spacing
                         Spacer(modifier = Modifier.height(8.dp))
-
-                        // App Name
                         Text(
                             text = app.name,
                             fontSize = 16.sp,
-                            color = MaterialTheme.colorScheme.onSurface, // Use theme color for text
+                            color = MaterialTheme.colorScheme.onSurface,
                             textAlign = TextAlign.Center,
                             fontWeight = FontWeight.Medium,
                             modifier = Modifier.padding(top = 4.dp)
@@ -182,7 +179,6 @@ fun ChildScreen(navController: NavController) {
             }
         }
 
-        // Submit Button
         Button(
             onClick = {
                 uploadToFirebase(installedApps, profileType)
@@ -252,8 +248,8 @@ fun getInstalledApps(context: Context): List<InstalledApp> {
         if (!isSystemApp) {
             val appName = packageInfo.applicationInfo.loadLabel(packageManager).toString()
             val packageName = packageInfo.packageName
-            val appIcon = packageInfo.applicationInfo.loadIcon(packageManager) // This is a Drawable
-            InstalledApp(appName, packageName, appIcon) // Directly use the Drawable
+            val appIcon = packageInfo.applicationInfo.loadIcon(packageManager)
+            InstalledApp(appName, packageName, appIcon)
         } else null
     }
 }
@@ -270,6 +266,7 @@ fun uploadInstalledAppsOnStart(context: Context) {
             "name" to app.name,
             "package_name" to app.packageName,
             "icon" to bitmapToBase64(drawableToBitmap(app.icon)!!),
+            "profile_type" to "Custom"
         )
         firebaseDatabase.child(app.name).setValue(appData).addOnCompleteListener {
             if (it.isSuccessful) {
@@ -295,20 +292,20 @@ data class InstalledApp(
 
 val profileApps = mapOf(
     "Child" to listOf(
-        "com.google.android.apps.youtube.kids", // YouTube Kids
-        "org.khanacademy.android",             // Khan Academy
-        "com.duolingo"                         // Duolingo
+        "com.google.android.apps.youtube.kids",
+        "org.khanacademy.android",
+        "com.duolingo"
     ),
     "Teen" to listOf(
-        "com.android.chrome",                  // Chrome
-        "com.facebook.katana",                 // Facebook
-        "com.instagram.android",              // Instagram
-        "com.google.android.youtube"          // YouTube
+        "com.android.chrome",
+        "com.facebook.katana",
+        "com.instagram.android",
+        "com.google.android.youtube"
     ),
     "Pre-K" to listOf(
-        "com.android.chrome",                  // Chrome
-        "com.google.android.apps.youtube.kids", // YouTube Kids
-        "com.facebook.katana"                  // Facebook
+        "com.android.chrome",
+        "com.google.android.apps.youtube.kids",
+        "com.facebook.katana"
     )
 )
 

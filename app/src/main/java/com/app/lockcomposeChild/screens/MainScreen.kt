@@ -11,7 +11,7 @@ import androidx.navigation.NavController
 import com.google.firebase.database.FirebaseDatabase
 
 @Composable
-fun MainScreen(navController: NavController) {
+fun StartScreen(navController: NavController) {
     val context = LocalContext.current
 
     LaunchedEffect(Unit) {
@@ -36,7 +36,6 @@ fun MainScreen(navController: NavController) {
                 }
             }
             .addOnFailureListener {
-                // If the request failed, navigate to the child screen and show a toast
                 navController.navigate("child")
                 Toast.makeText(context, "Failed to fetch profile", Toast.LENGTH_SHORT).show()
             }
