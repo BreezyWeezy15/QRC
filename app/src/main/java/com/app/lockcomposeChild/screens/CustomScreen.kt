@@ -86,7 +86,6 @@ fun CustomScreen(navController: NavController) {
     val qrCodeBitmap = remember { generateQRCodeForDatas(qrData) }
 
 
-
     DisposableEffect(Unit) {
 
         isLoading.value = false
@@ -151,6 +150,15 @@ fun CustomScreen(navController: NavController) {
             TopAppBar(
                 title = { Text("Child App", color = Color.Black) },
                 actions = {
+                    IconButton(onClick = {
+                        askPermission(context)
+                    }) {
+                        Icon(
+                            painter = painterResource(id = R.drawable.permission),
+                            contentDescription = "Ask Permission",
+                            tint = Color.Black
+                        )
+                    }
                     IconButton(onClick = { showQRCode.value = true }) {
                         Icon(
                             painter = painterResource(id = R.drawable.qr_code),
@@ -218,7 +226,9 @@ fun CustomScreen(navController: NavController) {
             showQRCode.value = false
         }) {
             Box(
-                modifier = Modifier.fillMaxWidth().padding(16.dp),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(16.dp),
                 contentAlignment = Alignment.Center
             ) {
                 Column(horizontalAlignment = Alignment.CenterHorizontally) {
@@ -240,6 +250,20 @@ fun CustomScreen(navController: NavController) {
     }
 }
 
+fun askPermission(context: Context){
+    val map = hashMapOf<String,Any>()
+    map["answer"] = "No"
+    val firebaseDatabase = FirebaseDatabase.getInstance().reference
+    firebaseDatabase
+        .child("Permissions")
+        .setValue(map)
+        .addOnSuccessListener {
+            Toast.makeText(context,"Permission Asked",Toast.LENGTH_SHORT).show()
+        }
+        .addOnFailureListener {
+            Log.d("TAG","Failed to send permission")
+        }
+}
 @Composable
 fun AppListItem(app: InstalledApps, interval: String, pinCode: String) {
     Card(

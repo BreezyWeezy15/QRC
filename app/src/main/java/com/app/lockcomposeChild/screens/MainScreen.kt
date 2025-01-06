@@ -31,12 +31,12 @@ fun StartScreen(navController: NavController) {
                         }
                     }
                 } else {
-                    navController.navigate("child")
+                    navController.navigate("custom")
                     Toast.makeText(context, "Profile type not found, defaulting to child", Toast.LENGTH_SHORT).show()
                 }
             }
             .addOnFailureListener {
-                navController.navigate("child")
+                navController.navigate("custom")
                 Toast.makeText(context, "Failed to fetch profile", Toast.LENGTH_SHORT).show()
             }
     }

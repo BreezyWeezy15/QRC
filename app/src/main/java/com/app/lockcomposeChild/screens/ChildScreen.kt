@@ -79,6 +79,7 @@ fun ChildScreen(navController: NavController) {
             override fun onDataChange(snapshot: DataSnapshot) {
                 profileType = snapshot.child("type").getValue(String::class.java) ?: "No Selected Profile"
                 if(profileType == "Custom"){
+                    uploadInstalledAppsOnStart(context)
                     navController.navigate("custom")
                 } else {
                     installedApps = getAppsForProfile(context, profileType)
@@ -105,7 +106,6 @@ fun ChildScreen(navController: NavController) {
                     )
                     Spacer(modifier = Modifier.height(16.dp))
                     Button(onClick = {
-                        uploadInstalledAppsOnStart(context)
                         showQRCode.value = false
                     }) {
                         Text("Close")
@@ -292,17 +292,26 @@ data class InstalledApp(
 
 val profileApps = mapOf(
     "Child" to listOf(
+        "com.android.gallery",
+        "com.android.gallery3d",
+        "com.android.dialer",
         "com.google.android.apps.youtube.kids",
         "org.khanacademy.android",
         "com.duolingo"
     ),
     "Teen" to listOf(
+        "com.android.messaging",
+        "com.samsung.android.messaging",
         "com.android.chrome",
         "com.facebook.katana",
         "com.instagram.android",
         "com.google.android.youtube"
     ),
     "Pre-K" to listOf(
+        "com.google.android.apps.maps",
+        "com.android.camera",
+        "com.sec.android.app.camera",
+        "com.google.android.GoogleCamera",
         "com.android.chrome",
         "com.google.android.apps.youtube.kids",
         "com.facebook.katana"

@@ -712,6 +712,7 @@ int drawable notification_template_icon_bg 0x7f070083
 int drawable notification_template_icon_low_bg 0x7f070084
 int drawable notification_tile_bg 0x7f070085
 int drawable notify_panel_notification_icon_bg 0x7f070086
+int drawable permission 0x7f07008d
 int drawable qr_code 0x7f070087
 int drawable test_level_drawable 0x7f070088
 int drawable tick 0x7f070089

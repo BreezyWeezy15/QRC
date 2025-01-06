@@ -15,6 +15,7 @@ drawable baseline_lock_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ig
+drawable permission
 drawable qr_code
 drawable tick
 drawable uncheck
