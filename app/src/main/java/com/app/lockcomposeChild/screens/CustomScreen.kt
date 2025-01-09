@@ -50,6 +50,8 @@ import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.DisposableEffectScope
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
@@ -64,6 +66,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import androidx.navigation.NavController
+import coil.request.Disposable
 import com.app.lockcomposeChild.R
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
@@ -98,18 +101,15 @@ fun CustomScreen(navController: NavController) {
         val valueEventListener = object : ValueEventListener {
             override fun onDataChange(dataSnapshot: DataSnapshot) {
                 val updatedList = mutableListOf<InstalledApps>()
+                if (dataSnapshot.child("type").getValue(String::class.java) == "Custom"){
+                    for (childSnapshot in dataSnapshot.children) {
+                        val packageName = childSnapshot.child("package_name").getValue(String::class.java) ?: ""
+                        val name = childSnapshot.child("name").getValue(String::class.java) ?: ""
+                        val base64Icon = childSnapshot.child("icon").getValue(String::class.java) ?: ""
+                        val interval = childSnapshot.child("interval").getValue(String::class.java) ?: ""
+                        val pinCode = childSnapshot.child("pin_code").getValue(String::class.java) ?: ""
+                        val profileType = childSnapshot.child("profile_type").getValue(String::class.java) ?: ""
 
-                for (childSnapshot in dataSnapshot.children) {
-                    val packageName = childSnapshot.child("package_name").getValue(String::class.java) ?: ""
-                    val name = childSnapshot.child("name").getValue(String::class.java) ?: ""
-                    val base64Icon = childSnapshot.child("icon").getValue(String::class.java) ?: ""
-                    val interval = childSnapshot.child("interval").getValue(String::class.java) ?: ""
-                    val pinCode = childSnapshot.child("pin_code").getValue(String::class.java) ?: ""
-                    val profileType = childSnapshot.child("profile_type").getValue(String::class.java) ?: ""
-
-                    if (profileType == "custom") {
-                        navController.navigate("child")
-                    } else {
                         val iconBitmap = base64ToBitmaps(base64Icon)
 
                         val installedApp = iconBitmap?.let {
@@ -125,18 +125,23 @@ fun CustomScreen(navController: NavController) {
                         if (installedApp != null) {
                             updatedList.add(installedApp)
                         }
+
+
                     }
+                    appsList.value = updatedList
+                    isLoading.value = false
                 }
-                appsList.value = updatedList
-                isLoading.value = false
+                else {
+                    navController.navigate("child")
+                }
             }
 
             override fun onCancelled(databaseError: DatabaseError) {
                 isLoading.value = false
             }
         }
-
         firebaseDatabase.addValueEventListener(valueEventListener)
+
         onDispose {
             firebaseDatabase.removeEventListener(valueEventListener)
         }
@@ -251,7 +256,6 @@ fun CustomScreen(navController: NavController) {
             }
         }
     }
-
     if (showPermissionDialog.value) {
         AlertDialog(
             onDismissRequest = { showPermissionDialog.value = false },
@@ -272,6 +276,7 @@ fun CustomScreen(navController: NavController) {
             }
         )
     }
+
 }
 
 fun askPermission(context: Context) {
@@ -281,6 +286,7 @@ fun askPermission(context: Context) {
     val firebaseDatabase = FirebaseDatabase.getInstance().reference
     firebaseDatabase
         .child("Permissions")
+        .child(generateDeviceID(context))
         .setValue(map)
         .addOnSuccessListener {
             Toast.makeText(context, "Permission Asked", Toast.LENGTH_SHORT).show()

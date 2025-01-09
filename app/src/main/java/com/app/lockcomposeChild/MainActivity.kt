@@ -9,7 +9,6 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.app.lockcomposeChild.screens.ChildScreen
 import com.app.lockcomposeChild.screens.CustomScreen
-import com.app.lockcomposeChild.screens.StartScreen
 
 
 class MainActivity : ComponentActivity() {
@@ -19,10 +18,7 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             val navController = rememberNavController()
-            NavHost(navController = navController, startDestination = "main") {
-                composable("main"){
-                    StartScreen(navController = navController)
-                }
+            NavHost(navController = navController, startDestination = "custom") {
                 composable("custom"){
                     CustomScreen(navController)
                 }

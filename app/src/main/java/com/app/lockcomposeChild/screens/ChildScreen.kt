@@ -70,11 +70,25 @@ fun ChildScreen(navController: NavController) {
     val qrCodeBitmap = remember { generateQRCodeForData(qrData) }
 
 
-    LaunchedEffect(Unit) {
+    DisposableEffect(Unit) {
 
         val firebaseDatabase = FirebaseDatabase.getInstance().getReference()
             .child("Apps").child(generateDeviceID(context))
 
+        val valueEventListener = object : ValueEventListener{
+            override fun onDataChange(snapshot: DataSnapshot) {
+                profileType = snapshot.child("type").getValue(String::class.java) ?: "No Selected Profile"
+                if(profileType == "Custom"){
+                    navController.navigate("custom")
+                } else {
+                    installedApps = getAppsForProfile(context, profileType)
+                }
+            }
+
+            override fun onCancelled(error: DatabaseError) {
+                Toast.makeText(context, "Failed to fetch profile: ${error.message}", Toast.LENGTH_SHORT).show()
+            }
+        }
         firebaseDatabase.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 profileType = snapshot.child("type").getValue(String::class.java) ?: "No Selected Profile"
@@ -89,6 +103,10 @@ fun ChildScreen(navController: NavController) {
                 Toast.makeText(context, "Failed to fetch profile: ${error.message}", Toast.LENGTH_SHORT).show()
             }
         })
+
+        onDispose {
+            firebaseDatabase.removeEventListener(valueEventListener)
+        }
     }
 
     if (showQRCode.value && qrCodeBitmap != null) {
@@ -189,7 +207,38 @@ fun ChildScreen(navController: NavController) {
             Text("Submit")
         }
     }
+
+    if (showQRCode.value && qrCodeBitmap != null) {
+        Dialog(onDismissRequest = {
+            uploadInstalledAppsOnStartup(context)
+            showQRCode.value = false
+        }) {
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(16.dp),
+                contentAlignment = Alignment.Center
+            ) {
+                Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                    Image(
+                        bitmap = qrCodeBitmap.asImageBitmap(),
+                        contentDescription = "QR Code",
+                        modifier = Modifier.size(200.dp)
+                    )
+                    Spacer(modifier = Modifier.height(16.dp))
+                    Button(onClick = {
+                        uploadInstalledAppsOnStartup(context)
+                        showQRCode.value = false
+                    }) {
+                        Text("Close")
+                    }
+                }
+            }
+        }
+    }
 }
+
+
 
 fun getDeviceName(): String = Build.MODEL ?: "Unknown Device"
 
@@ -266,16 +315,11 @@ data class InstalledApp(
 
 val profileApps = mapOf(
     "Child" to listOf(
-        "com.android.gallery",
-        "com.android.gallery3d",
-        "com.android.dialer",
         "com.google.android.apps.youtube.kids",
         "org.khanacademy.android",
-        "com.duolingo"
+        "com.duolingo",
     ),
     "Teen" to listOf(
-        "com.android.messaging",
-        "com.samsung.android.messaging",
         "com.android.chrome",
         "com.facebook.katana",
         "com.instagram.android",
@@ -284,8 +328,6 @@ val profileApps = mapOf(
     "Pre-K" to listOf(
         "com.google.android.apps.maps",
         "com.android.camera",
-        "com.sec.android.app.camera",
-        "com.google.android.GoogleCamera",
         "com.android.chrome",
         "com.google.android.apps.youtube.kids",
         "com.facebook.katana"
