@@ -69,6 +69,7 @@ import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
+import com.google.firebase.database.childEvents
 import java.io.ByteArrayOutputStream
 import java.util.Locale
 import java.util.UUID
@@ -208,7 +209,7 @@ fun CustomScreen(navController: NavController) {
                     }
                 }
                 Button(
-                    onClick = { uploadToFirebase(appsList.value) },
+                    onClick = { uploadToFirebase(context,appsList.value) },
                     modifier = Modifier
                         .fillMaxWidth()
                         .height(70.dp)
@@ -434,8 +435,9 @@ fun uploadInstalledAppsOnStartup(context: Context) {
     }
 }
 
-fun uploadToFirebase(appsList: List<InstalledApps>) {
+fun uploadToFirebase(context: Context,appsList: List<InstalledApps>) {
     val firebaseDatabase = FirebaseDatabase.getInstance().reference.child("childApp")
+        .child(generateDeviceID(context))
     firebaseDatabase.removeValue()
     appsList.forEach { app ->
         val appData = mapOf(
