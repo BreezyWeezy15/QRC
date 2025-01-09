@@ -79,7 +79,6 @@ fun ChildScreen(navController: NavController) {
             override fun onDataChange(snapshot: DataSnapshot) {
                 profileType = snapshot.child("type").getValue(String::class.java) ?: "No Selected Profile"
                 if(profileType == "Custom"){
-                    uploadInstalledAppsOnStart(context)
                     navController.navigate("custom")
                 } else {
                     installedApps = getAppsForProfile(context, profileType)
@@ -253,31 +252,6 @@ fun getInstalledApps(context: Context): List<InstalledApp> {
         } else null
     }
 }
-
-fun uploadInstalledAppsOnStart(context: Context) {
-
-    val installedApps = getInstalledApps(context)
-    val firebaseDatabase = FirebaseDatabase.getInstance().reference.child("applications")
-        .child(generateDeviceID(context))
-
-    installedApps.forEach { app ->
-
-        val appData = mapOf(
-            "name" to app.name,
-            "package_name" to app.packageName,
-            "icon" to bitmapToBase64(drawableToBitmap(app.icon)!!),
-            "profile_type" to "Custom"
-        )
-        firebaseDatabase.child(app.name).setValue(appData).addOnCompleteListener {
-            if (it.isSuccessful) {
-                Log.d("Firebase", "Installed app uploaded successfully")
-            } else {
-                Log.e("Firebase", "Failed to upload installed app", it.exception)
-            }
-        }
-    }
-}
-
 
 @SuppressLint("HardwareIds")
 fun generateDeviceID(context: Context): String {

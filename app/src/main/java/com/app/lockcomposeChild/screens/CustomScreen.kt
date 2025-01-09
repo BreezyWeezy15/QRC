@@ -32,6 +32,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AccountBox
+import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
@@ -44,6 +45,7 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
@@ -81,13 +83,12 @@ fun CustomScreen(navController: NavController) {
     val isLoading = remember { mutableStateOf(true) }
     val showToast = remember { mutableStateOf(false) }
     val showQRCode = remember { mutableStateOf(false) }
+    val showPermissionDialog = remember { mutableStateOf(false) }
 
     val qrData = remember { "${getDeviceNaming()},${generateDeviceIDs(context)}" }
     val qrCodeBitmap = remember { generateQRCodeForDatas(qrData) }
 
-
     DisposableEffect(Unit) {
-
         isLoading.value = false
 
         val firebaseDatabase = FirebaseDatabase.getInstance().reference.child("Apps")
@@ -105,7 +106,7 @@ fun CustomScreen(navController: NavController) {
                     val pinCode = childSnapshot.child("pin_code").getValue(String::class.java) ?: ""
                     val profileType = childSnapshot.child("profile_type").getValue(String::class.java) ?: ""
 
-                    if(profileType == "custom"){
+                    if (profileType == "custom") {
                         navController.navigate("child")
                     } else {
                         val iconBitmap = base64ToBitmaps(base64Icon)
@@ -148,15 +149,16 @@ fun CustomScreen(navController: NavController) {
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Child App", color = Color.Black) },
+                title = { Text("Custom App", color = Color.Black) },
                 actions = {
                     IconButton(onClick = {
-                        askPermission(context)
+                        showPermissionDialog.value = true
                     }) {
                         Icon(
                             painter = painterResource(id = R.drawable.permission),
                             contentDescription = "Ask Permission",
-                            tint = Color.Black
+                            tint = Color.Black,
+                            modifier = Modifier.size(60.dp)
                         )
                     }
                     IconButton(onClick = { showQRCode.value = true }) {
@@ -248,22 +250,45 @@ fun CustomScreen(navController: NavController) {
             }
         }
     }
+
+    if (showPermissionDialog.value) {
+        AlertDialog(
+            onDismissRequest = { showPermissionDialog.value = false },
+            title = { Text("Permission Request") },
+            text = { Text("Do you want to send a parental permission request?") },
+            confirmButton = {
+                TextButton(onClick = {
+                    askPermission(context)
+                    showPermissionDialog.value = false
+                }) {
+                    Text("Yes")
+                }
+            },
+            dismissButton = {
+                TextButton(onClick = { showPermissionDialog.value = false }) {
+                    Text("No")
+                }
+            }
+        )
+    }
 }
 
-fun askPermission(context: Context){
-    val map = hashMapOf<String,Any>()
+fun askPermission(context: Context) {
+    val map = hashMapOf<String, Any>()
     map["answer"] = "No"
+    map["type"] = "Custom"
     val firebaseDatabase = FirebaseDatabase.getInstance().reference
     firebaseDatabase
         .child("Permissions")
         .setValue(map)
         .addOnSuccessListener {
-            Toast.makeText(context,"Permission Asked",Toast.LENGTH_SHORT).show()
+            Toast.makeText(context, "Permission Asked", Toast.LENGTH_SHORT).show()
         }
         .addOnFailureListener {
-            Log.d("TAG","Failed to send permission")
+            Log.d("TAG", "Failed to send permission")
         }
 }
+
 @Composable
 fun AppListItem(app: InstalledApps, interval: String, pinCode: String) {
     Card(
