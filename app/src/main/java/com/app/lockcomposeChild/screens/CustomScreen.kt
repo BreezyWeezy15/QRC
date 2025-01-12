@@ -279,6 +279,7 @@ fun askPermission(context: Context) {
     val map = hashMapOf<String, Any>()
     map["answer"] = "No"
     map["type"] = "Custom"
+    map["id"] = System.currentTimeMillis()
     val firebaseDatabase = FirebaseDatabase.getInstance().reference
     firebaseDatabase
         .child("Permissions")
