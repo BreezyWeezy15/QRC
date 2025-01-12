@@ -699,6 +699,7 @@ int drawable ic_call_decline_low 0x7f070076
 int drawable ic_launcher_background 0x7f070077
 int drawable ic_launcher_foreground 0x7f070078
 int drawable ig 0x7f070079
+int drawable no_device 0x7f07008e
 int drawable notification_action_background 0x7f07007a
 int drawable notification_bg 0x7f07007b
 int drawable notification_bg_low 0x7f07007c

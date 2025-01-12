@@ -20,6 +20,7 @@ import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -28,6 +29,7 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.*
@@ -68,7 +70,7 @@ fun ChildScreen(navController: NavController) {
     val showQRCode = remember { mutableStateOf(false) }
     val qrData = remember { "${getDeviceName()},${generateDeviceID(context)}" }
     val qrCodeBitmap = remember { generateQRCodeForData(qrData) }
-
+    val showPermissionDialog = remember { mutableStateOf(false) }
 
     DisposableEffect(Unit) {
 
@@ -89,49 +91,12 @@ fun ChildScreen(navController: NavController) {
                 Toast.makeText(context, "Failed to fetch profile: ${error.message}", Toast.LENGTH_SHORT).show()
             }
         }
-        firebaseDatabase.addValueEventListener(object : ValueEventListener {
-            override fun onDataChange(snapshot: DataSnapshot) {
-                profileType = snapshot.child("type").getValue(String::class.java) ?: "No Selected Profile"
-                if(profileType == "Custom"){
-                    navController.navigate("custom")
-                } else {
-                    installedApps = getAppsForProfile(context, profileType)
-                }
-            }
-
-            override fun onCancelled(error: DatabaseError) {
-                Toast.makeText(context, "Failed to fetch profile: ${error.message}", Toast.LENGTH_SHORT).show()
-            }
-        })
+        firebaseDatabase.addValueEventListener(valueEventListener)
 
         onDispose {
             firebaseDatabase.removeEventListener(valueEventListener)
         }
     }
-
-    if (showQRCode.value && qrCodeBitmap != null) {
-        Dialog(onDismissRequest = { showQRCode.value = false }) {
-            Box(
-                modifier = Modifier.fillMaxWidth().padding(16.dp),
-                contentAlignment = Alignment.Center
-            ) {
-                Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                    Image(
-                        bitmap = qrCodeBitmap.asImageBitmap(),
-                        contentDescription = "QR Code",
-                        modifier = Modifier.size(200.dp)
-                    )
-                    Spacer(modifier = Modifier.height(16.dp))
-                    Button(onClick = {
-                        showQRCode.value = false
-                    }) {
-                        Text("Close")
-                    }
-                }
-            }
-        }
-    }
-
 
     Column(
         modifier = Modifier
@@ -142,6 +107,16 @@ fun ChildScreen(navController: NavController) {
         TopAppBar(
             title = { Text(profileType, color = Color.Black) },
             actions = {
+                IconButton(onClick = {
+                    showPermissionDialog.value = true
+                }) {
+                    Icon(
+                        painter = painterResource(id = R.drawable.permission),
+                        contentDescription = "Ask Permission",
+                        tint = Color.Black,
+                        modifier = Modifier.size(60.dp)
+                    )
+                }
                 IconButton(onClick = { showQRCode.value = true }) {
                     Icon(
                         painter = painterResource(id = R.drawable.qr_code),
@@ -153,44 +128,59 @@ fun ChildScreen(navController: NavController) {
             colors = TopAppBarDefaults.topAppBarColors(containerColor = Color.LightGray)
         )
 
-        LazyVerticalGrid(
-            columns = GridCells.Fixed(2),
-            horizontalArrangement = Arrangement.spacedBy(16.dp),
-            verticalArrangement = Arrangement.spacedBy(16.dp),
-            modifier = Modifier.weight(1f)
-        ) {
-            items(installedApps) { app ->
-                Card(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(8.dp),
-                    elevation = CardDefaults.cardElevation(8.dp),
-                    shape = MaterialTheme.shapes.medium
-                ) {
-                    Column(
-                        horizontalAlignment = Alignment.CenterHorizontally,
+        if (installedApps.isEmpty() && profileType != "Custom") {
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(16.dp),
+                contentAlignment = Alignment.Center
+            ) {
+                Image(
+                    painter = painterResource(id = R.drawable.no_device),
+                    contentDescription = "No Devices",
+                    modifier = Modifier.size(70.dp)
+                )
+            }
+        } else {
+            LazyVerticalGrid(
+                columns = GridCells.Fixed(2),
+                horizontalArrangement = Arrangement.spacedBy(16.dp),
+                verticalArrangement = Arrangement.spacedBy(16.dp),
+                modifier = Modifier.weight(1f)
+            ) {
+                items(installedApps) { app ->
+                    Card(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .padding(16.dp)
+                            .padding(8.dp),
+                        elevation = CardDefaults.cardElevation(8.dp),
+                        shape = MaterialTheme.shapes.medium
                     ) {
-                        Image(
-                            painter = BitmapPainter(app.icon.toBitmap().asImageBitmap()),
-                            contentDescription = app.name,
+                        Column(
+                            horizontalAlignment = Alignment.CenterHorizontally,
                             modifier = Modifier
-                                .size(64.dp)
-                                .clip(CircleShape)
-                                .border(2.dp, MaterialTheme.colorScheme.primary, CircleShape),
-                            contentScale = ContentScale.Crop
-                        )
-                        Spacer(modifier = Modifier.height(8.dp))
-                        Text(
-                            text = app.name,
-                            fontSize = 16.sp,
-                            color = MaterialTheme.colorScheme.onSurface,
-                            textAlign = TextAlign.Center,
-                            fontWeight = FontWeight.Medium,
-                            modifier = Modifier.padding(top = 4.dp)
-                        )
+                                .fillMaxWidth()
+                                .padding(16.dp)
+                        ) {
+                            Image(
+                                painter = BitmapPainter(app.icon.toBitmap().asImageBitmap()),
+                                contentDescription = app.name,
+                                modifier = Modifier
+                                    .size(64.dp)
+                                    .clip(CircleShape)
+                                    .border(2.dp, MaterialTheme.colorScheme.primary, CircleShape),
+                                contentScale = ContentScale.Crop
+                            )
+                            Spacer(modifier = Modifier.height(8.dp))
+                            Text(
+                                text = app.name,
+                                fontSize = 16.sp,
+                                color = MaterialTheme.colorScheme.onSurface,
+                                textAlign = TextAlign.Center,
+                                fontWeight = FontWeight.Medium,
+                                modifier = Modifier.padding(top = 4.dp)
+                            )
+                        }
                     }
                 }
             }
@@ -198,7 +188,7 @@ fun ChildScreen(navController: NavController) {
 
         Button(
             onClick = {
-                uploadToFirebase(installedApps, profileType)
+                uploadToFirebase(context, installedApps, profileType)
             },
             modifier = Modifier
                 .fillMaxWidth()
@@ -236,8 +226,28 @@ fun ChildScreen(navController: NavController) {
             }
         }
     }
-}
 
+    if (showPermissionDialog.value) {
+        AlertDialog(
+            onDismissRequest = { showPermissionDialog.value = false },
+            title = { Text("Permission Request") },
+            text = { Text("Do you want to send a parental permission request?") },
+            confirmButton = {
+                TextButton(onClick = {
+                    askPermission(context)
+                    showPermissionDialog.value = false
+                }) {
+                    Text("Yes")
+                }
+            },
+            dismissButton = {
+                TextButton(onClick = { showPermissionDialog.value = false }) {
+                    Text("No")
+                }
+            }
+        )
+    }
+}
 
 
 fun getDeviceName(): String = Build.MODEL ?: "Unknown Device"
@@ -247,8 +257,9 @@ fun getAppsForProfile(context: Context, profileType: String): List<InstalledApp>
     val installedApps = getInstalledApps(context)
     return installedApps.filter { app -> appsForProfile.contains(app.packageName) }
 }
-fun uploadToFirebase(appsList: List<InstalledApp>, profileType: String) {
+fun uploadToFirebase(context: Context,appsList: List<InstalledApp>, profileType: String) {
     val firebaseDatabase = FirebaseDatabase.getInstance().reference.child("childApp")
+        .child(generateDeviceID(context = context))
     firebaseDatabase.removeValue()
     appsList.forEach { app ->
         val appData = mapOf(

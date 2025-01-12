@@ -8,12 +8,12 @@
         "source": "C:\\Users\\BreezyWeezy\\.gradle\\daemon\\8.6\\com.app.lockcomposeChild.app-main-68:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\BreezyWeezy\\.gradle\\daemon\\8.6\\com.app.lockcomposeChild.app-debug-66:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\BreezyWeezy\\.gradle\\daemon\\8.6\\com.app.lockcomposeChild.app-main-68:\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
         "merged": "C:\\Users\\BreezyWeezy\\.gradle\\daemon\\8.6\\com.app.lockcomposeChild.app-debug-66:\\drawable_baseline_check_24.xml.flat",
         "source": "C:\\Users\\BreezyWeezy\\.gradle\\daemon\\8.6\\com.app.lockcomposeChild.app-main-68:\\drawable\\baseline_check_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\BreezyWeezy\\.gradle\\daemon\\8.6\\com.app.lockcomposeChild.app-debug-66:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\BreezyWeezy\\.gradle\\daemon\\8.6\\com.app.lockcomposeChild.app-main-68:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\BreezyWeezy\\.gradle\\daemon\\8.6\\com.app.lockcomposeChild.app-debug-66:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
@@ -32,6 +32,10 @@
         "source": "C:\\Users\\BreezyWeezy\\.gradle\\daemon\\8.6\\com.app.lockcomposeChild.app-main-68:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\BreezyWeezy\\.gradle\\daemon\\8.6\\com.app.lockcomposeChild.app-debug-66:\\drawable_permission.png.flat",
+        "source": "C:\\Users\\BreezyWeezy\\.gradle\\daemon\\8.6\\com.app.lockcomposeChild.app-main-68:\\drawable\\permission.png"
+    },
+    {
         "merged": "C:\\Users\\BreezyWeezy\\.gradle\\daemon\\8.6\\com.app.lockcomposeChild.app-debug-66:\\drawable_ig.jpg.flat",
         "source": "C:\\Users\\BreezyWeezy\\.gradle\\daemon\\8.6\\com.app.lockcomposeChild.app-main-68:\\drawable\\ig.jpg"
     },
@@ -42,6 +46,10 @@
     {
         "merged": "C:\\Users\\BreezyWeezy\\.gradle\\daemon\\8.6\\com.app.lockcomposeChild.app-debug-66:\\drawable_qr_code.png.flat",
         "source": "C:\\Users\\BreezyWeezy\\.gradle\\daemon\\8.6\\com.app.lockcomposeChild.app-main-68:\\drawable\\qr_code.png"
+    },
+    {
+        "merged": "com.app.lockcomposeChild.app-debug-66:/drawable_no_device.png.flat",
+        "source": "com.app.lockcomposeChild.app-main-68:/drawable/no_device.png"
     },
     {
         "merged": "C:\\Users\\BreezyWeezy\\.gradle\\daemon\\8.6\\com.app.lockcomposeChild.app-debug-66:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -78,10 +86,6 @@
     {
         "merged": "C:\\Users\\BreezyWeezy\\.gradle\\daemon\\8.6\\com.app.lockcomposeChild.app-debug-66:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\BreezyWeezy\\.gradle\\daemon\\8.6\\com.app.lockcomposeChild.app-main-68:\\mipmap-xxxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "com.app.lockcomposeChild.app-debug-66:/drawable_permission.png.flat",
-        "source": "com.app.lockcomposeChild.app-main-68:/drawable/permission.png"
     },
     {
         "merged": "C:\\Users\\BreezyWeezy\\.gradle\\daemon\\8.6\\com.app.lockcomposeChild.app-debug-66:\\drawable_uncheck.png.flat",
