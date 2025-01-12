@@ -22,6 +22,7 @@ import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -73,14 +74,13 @@ fun ChildScreen(navController: NavController) {
     val showPermissionDialog = remember { mutableStateOf(false) }
 
     DisposableEffect(Unit) {
-
         val firebaseDatabase = FirebaseDatabase.getInstance().getReference()
             .child("Apps").child(generateDeviceID(context))
 
-        val valueEventListener = object : ValueEventListener{
+        val valueEventListener = object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 profileType = snapshot.child("type").getValue(String::class.java) ?: "No Selected Profile"
-                if(profileType == "Custom"){
+                if (profileType == "Custom") {
                     navController.navigate("custom")
                 } else {
                     installedApps = getAppsForProfile(context, profileType)
@@ -100,16 +100,13 @@ fun ChildScreen(navController: NavController) {
 
     Column(
         modifier = Modifier
-            .fillMaxSize()
-            .padding(16.dp),
+            .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         TopAppBar(
             title = { Text(profileType, color = Color.Black) },
             actions = {
-                IconButton(onClick = {
-                    showPermissionDialog.value = true
-                }) {
+                IconButton(onClick = { showPermissionDialog.value = true }) {
                     Icon(
                         painter = painterResource(id = R.drawable.permission),
                         contentDescription = "Ask Permission",
@@ -131,8 +128,8 @@ fun ChildScreen(navController: NavController) {
         if (installedApps.isEmpty() && profileType != "Custom") {
             Box(
                 modifier = Modifier
-                    .fillMaxSize()
-                    .padding(16.dp),
+                    .weight(1f)
+                    .fillMaxSize(),
                 contentAlignment = Alignment.Center
             ) {
                 Image(
@@ -141,12 +138,15 @@ fun ChildScreen(navController: NavController) {
                     modifier = Modifier.size(70.dp)
                 )
             }
-        } else {
+        }
+        else {
             LazyVerticalGrid(
                 columns = GridCells.Fixed(2),
                 horizontalArrangement = Arrangement.spacedBy(16.dp),
                 verticalArrangement = Arrangement.spacedBy(16.dp),
-                modifier = Modifier.weight(1f)
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(16.dp),
             ) {
                 items(installedApps) { app ->
                     Card(
@@ -187,12 +187,12 @@ fun ChildScreen(navController: NavController) {
         }
 
         Button(
-            onClick = {
-                uploadToFirebase(context, installedApps, profileType)
-            },
+            onClick = { uploadToFirebase(context, installedApps, profileType) },
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(vertical = 16.dp)
+                .height(70.dp),
+            shape = RectangleShape,
+            colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.primary)
         ) {
             Text("Submit")
         }
@@ -248,7 +248,6 @@ fun ChildScreen(navController: NavController) {
         )
     }
 }
-
 
 fun getDeviceName(): String = Build.MODEL ?: "Unknown Device"
 
